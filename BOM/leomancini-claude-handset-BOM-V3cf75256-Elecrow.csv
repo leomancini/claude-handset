@@ -1,0 +1,528 @@
+﻿*Reference,*Manufacturer Part number,*QTY,*Original,Description,Purchase Link
+"C1","CL10A106MA8NRNC","1","","A generic fixed capacitor ideal for rapid circuit topology development. You can choose between polarized and non-polarized types, its symbol and the footprint will automatically adapt based on your selection. Supported options include standard SMD sizes for ceramic capacitors (e.g., 0402, 0603, 0805), SMD sizes for aluminum electrolytic capacitors, and through-hole footprints for polarized capacitors. 
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard capacitor values: 1.0pF, 10pF, 100pF, 1000pF, 0.01uF, 0.1uF, 1.0uF, 10uF, 100uF, 1000uF, 10000uF
+1.1pF, 11pF, 110pF, 1100pF
+1.2pF, 12pF, 120pF, 1200pF
+1.3pF, 13pF, 130pF, 1300pF
+1.5pF, 15pF, 150pF, 1500pF, 0.015uF, 0.15uF, 1.5uF, 15uF, 150uF, 1500uF
+1.6pF, 16pF, 160pF, 1600pF
+1.8pF, 18pF, 180pF, 1800pF
+2.0pF, 20pF, 200pF, 2000pF
+2.2pF, 22pF, 220pF, 2200pF, 0.022uF, 0.22uF, 2.2uF, 22uF, 220uF, 2200uF
+2.4pF, 24pF, 240pF, 2400pF
+2.7pF, 27pF, 270pF, 2700pF
+3.0pF, 30pF, 300pF, 3000pF
+3.3pF, 33pF, 330pF, 3300pF, 0.033uF, 0.33uF, 3.3uF, 33uF, 330uF, 3300uF
+3.6pF, 36pF, 360pF, 3600pF
+3.9pF, 39pF, 390pF, 3900pF
+4.3pF, 43pF, 430pF, 4300pF
+4.7pF, 47pF, 470pF, 4700pF, 0.047uF, 0.47uF, 4.7uF, 47uF, 470uF, 4700uF
+5.1pF, 51pF, 510pF, 5100pF
+5.6pF, 56pF, 560pF, 5600pF
+6.2pF, 62pF, 620pF, 6200pF
+6.8pF, 68pF, 680pF, 6800pF, 0.068uF, 0.68uF, 6.8uF, 68uF, 680uF, 6800uF
+7.5pF, 75pF, 750pF, 7500pF
+8.2pF, 82pF, 820pF, 8200pF
+9.1pF, 91pF, 910pF, 9100pF #generics #CommonPartsLibrary",""
+"C2, C25, C3","CL21A106KAYNNNE","3","","A generic fixed capacitor ideal for rapid circuit topology development. You can choose between polarized and non-polarized types, its symbol and the footprint will automatically adapt based on your selection. Supported options include standard SMD sizes for ceramic capacitors (e.g., 0402, 0603, 0805), SMD sizes for aluminum electrolytic capacitors, and through-hole footprints for polarized capacitors. 
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard capacitor values: 1.0pF, 10pF, 100pF, 1000pF, 0.01uF, 0.1uF, 1.0uF, 10uF, 100uF, 1000uF, 10000uF
+1.1pF, 11pF, 110pF, 1100pF
+1.2pF, 12pF, 120pF, 1200pF
+1.3pF, 13pF, 130pF, 1300pF
+1.5pF, 15pF, 150pF, 1500pF, 0.015uF, 0.15uF, 1.5uF, 15uF, 150uF, 1500uF
+1.6pF, 16pF, 160pF, 1600pF
+1.8pF, 18pF, 180pF, 1800pF
+2.0pF, 20pF, 200pF, 2000pF
+2.2pF, 22pF, 220pF, 2200pF, 0.022uF, 0.22uF, 2.2uF, 22uF, 220uF, 2200uF
+2.4pF, 24pF, 240pF, 2400pF
+2.7pF, 27pF, 270pF, 2700pF
+3.0pF, 30pF, 300pF, 3000pF
+3.3pF, 33pF, 330pF, 3300pF, 0.033uF, 0.33uF, 3.3uF, 33uF, 330uF, 3300uF
+3.6pF, 36pF, 360pF, 3600pF
+3.9pF, 39pF, 390pF, 3900pF
+4.3pF, 43pF, 430pF, 4300pF
+4.7pF, 47pF, 470pF, 4700pF, 0.047uF, 0.47uF, 4.7uF, 47uF, 470uF, 4700uF
+5.1pF, 51pF, 510pF, 5100pF
+5.6pF, 56pF, 560pF, 5600pF
+6.2pF, 62pF, 620pF, 6200pF
+6.8pF, 68pF, 680pF, 6800pF, 0.068uF, 0.68uF, 6.8uF, 68uF, 680uF, 6800uF
+7.5pF, 75pF, 750pF, 7500pF
+8.2pF, 82pF, 820pF, 8200pF
+9.1pF, 91pF, 910pF, 9100pF #generics #CommonPartsLibrary",""
+"C10, C15, C16, C17, C20, C24, C28, C4, C5, C6, C7, C8, C9","CL10B104KB8NNNC","13","","A generic fixed capacitor ideal for rapid circuit topology development. You can choose between polarized and non-polarized types, its symbol and the footprint will automatically adapt based on your selection. Supported options include standard SMD sizes for ceramic capacitors (e.g., 0402, 0603, 0805), SMD sizes for aluminum electrolytic capacitors, and through-hole footprints for polarized capacitors. 
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard capacitor values: 1.0pF, 10pF, 100pF, 1000pF, 0.01uF, 0.1uF, 1.0uF, 10uF, 100uF, 1000uF, 10000uF
+1.1pF, 11pF, 110pF, 1100pF
+1.2pF, 12pF, 120pF, 1200pF
+1.3pF, 13pF, 130pF, 1300pF
+1.5pF, 15pF, 150pF, 1500pF, 0.015uF, 0.15uF, 1.5uF, 15uF, 150uF, 1500uF
+1.6pF, 16pF, 160pF, 1600pF
+1.8pF, 18pF, 180pF, 1800pF
+2.0pF, 20pF, 200pF, 2000pF
+2.2pF, 22pF, 220pF, 2200pF, 0.022uF, 0.22uF, 2.2uF, 22uF, 220uF, 2200uF
+2.4pF, 24pF, 240pF, 2400pF
+2.7pF, 27pF, 270pF, 2700pF
+3.0pF, 30pF, 300pF, 3000pF
+3.3pF, 33pF, 330pF, 3300pF, 0.033uF, 0.33uF, 3.3uF, 33uF, 330uF, 3300uF
+3.6pF, 36pF, 360pF, 3600pF
+3.9pF, 39pF, 390pF, 3900pF
+4.3pF, 43pF, 430pF, 4300pF
+4.7pF, 47pF, 470pF, 4700pF, 0.047uF, 0.47uF, 4.7uF, 47uF, 470uF, 4700uF
+5.1pF, 51pF, 510pF, 5100pF
+5.6pF, 56pF, 560pF, 5600pF
+6.2pF, 62pF, 620pF, 6200pF
+6.8pF, 68pF, 680pF, 6800pF, 0.068uF, 0.68uF, 6.8uF, 68uF, 680uF, 6800uF
+7.5pF, 75pF, 750pF, 7500pF
+8.2pF, 82pF, 820pF, 8200pF
+9.1pF, 91pF, 910pF, 9100pF #generics #CommonPartsLibrary",""
+"C11","CL05B104KO5NNNC","1","","A generic fixed capacitor ideal for rapid circuit topology development. You can choose between polarized and non-polarized types, its symbol and the footprint will automatically adapt based on your selection. Supported options include standard SMD sizes for ceramic capacitors (e.g., 0402, 0603, 0805), SMD sizes for aluminum electrolytic capacitors, and through-hole footprints for polarized capacitors. 
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard capacitor values: 1.0pF, 10pF, 100pF, 1000pF, 0.01uF, 0.1uF, 1.0uF, 10uF, 100uF, 1000uF, 10000uF
+1.1pF, 11pF, 110pF, 1100pF
+1.2pF, 12pF, 120pF, 1200pF
+1.3pF, 13pF, 130pF, 1300pF
+1.5pF, 15pF, 150pF, 1500pF, 0.015uF, 0.15uF, 1.5uF, 15uF, 150uF, 1500uF
+1.6pF, 16pF, 160pF, 1600pF
+1.8pF, 18pF, 180pF, 1800pF
+2.0pF, 20pF, 200pF, 2000pF
+2.2pF, 22pF, 220pF, 2200pF, 0.022uF, 0.22uF, 2.2uF, 22uF, 220uF, 2200uF
+2.4pF, 24pF, 240pF, 2400pF
+2.7pF, 27pF, 270pF, 2700pF
+3.0pF, 30pF, 300pF, 3000pF
+3.3pF, 33pF, 330pF, 3300pF, 0.033uF, 0.33uF, 3.3uF, 33uF, 330uF, 3300uF
+3.6pF, 36pF, 360pF, 3600pF
+3.9pF, 39pF, 390pF, 3900pF
+4.3pF, 43pF, 430pF, 4300pF
+4.7pF, 47pF, 470pF, 4700pF, 0.047uF, 0.47uF, 4.7uF, 47uF, 470uF, 4700uF
+5.1pF, 51pF, 510pF, 5100pF
+5.6pF, 56pF, 560pF, 5600pF
+6.2pF, 62pF, 620pF, 6200pF
+6.8pF, 68pF, 680pF, 6800pF, 0.068uF, 0.68uF, 6.8uF, 68uF, 680uF, 6800uF
+7.5pF, 75pF, 750pF, 7500pF
+8.2pF, 82pF, 820pF, 8200pF
+9.1pF, 91pF, 910pF, 9100pF #generics #CommonPartsLibrary",""
+"C12, C18","CL10C270JB8NNNC","2","","A generic fixed capacitor ideal for rapid circuit topology development. You can choose between polarized and non-polarized types, its symbol and the footprint will automatically adapt based on your selection. Supported options include standard SMD sizes for ceramic capacitors (e.g., 0402, 0603, 0805), SMD sizes for aluminum electrolytic capacitors, and through-hole footprints for polarized capacitors. 
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard capacitor values: 1.0pF, 10pF, 100pF, 1000pF, 0.01uF, 0.1uF, 1.0uF, 10uF, 100uF, 1000uF, 10000uF
+1.1pF, 11pF, 110pF, 1100pF
+1.2pF, 12pF, 120pF, 1200pF
+1.3pF, 13pF, 130pF, 1300pF
+1.5pF, 15pF, 150pF, 1500pF, 0.015uF, 0.15uF, 1.5uF, 15uF, 150uF, 1500uF
+1.6pF, 16pF, 160pF, 1600pF
+1.8pF, 18pF, 180pF, 1800pF
+2.0pF, 20pF, 200pF, 2000pF
+2.2pF, 22pF, 220pF, 2200pF, 0.022uF, 0.22uF, 2.2uF, 22uF, 220uF, 2200uF
+2.4pF, 24pF, 240pF, 2400pF
+2.7pF, 27pF, 270pF, 2700pF
+3.0pF, 30pF, 300pF, 3000pF
+3.3pF, 33pF, 330pF, 3300pF, 0.033uF, 0.33uF, 3.3uF, 33uF, 330uF, 3300uF
+3.6pF, 36pF, 360pF, 3600pF
+3.9pF, 39pF, 390pF, 3900pF
+4.3pF, 43pF, 430pF, 4300pF
+4.7pF, 47pF, 470pF, 4700pF, 0.047uF, 0.47uF, 4.7uF, 47uF, 470uF, 4700uF
+5.1pF, 51pF, 510pF, 5100pF
+5.6pF, 56pF, 560pF, 5600pF
+6.2pF, 62pF, 620pF, 6200pF
+6.8pF, 68pF, 680pF, 6800pF, 0.068uF, 0.68uF, 6.8uF, 68uF, 680uF, 6800uF
+7.5pF, 75pF, 750pF, 7500pF
+8.2pF, 82pF, 820pF, 8200pF
+9.1pF, 91pF, 910pF, 9100pF #generics #CommonPartsLibrary",""
+"C13, C14","CL10A105KB8NNNC","2","","A generic fixed capacitor ideal for rapid circuit topology development. You can choose between polarized and non-polarized types, its symbol and the footprint will automatically adapt based on your selection. Supported options include standard SMD sizes for ceramic capacitors (e.g., 0402, 0603, 0805), SMD sizes for aluminum electrolytic capacitors, and through-hole footprints for polarized capacitors. 
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard capacitor values: 1.0pF, 10pF, 100pF, 1000pF, 0.01uF, 0.1uF, 1.0uF, 10uF, 100uF, 1000uF, 10000uF
+1.1pF, 11pF, 110pF, 1100pF
+1.2pF, 12pF, 120pF, 1200pF
+1.3pF, 13pF, 130pF, 1300pF
+1.5pF, 15pF, 150pF, 1500pF, 0.015uF, 0.15uF, 1.5uF, 15uF, 150uF, 1500uF
+1.6pF, 16pF, 160pF, 1600pF
+1.8pF, 18pF, 180pF, 1800pF
+2.0pF, 20pF, 200pF, 2000pF
+2.2pF, 22pF, 220pF, 2200pF, 0.022uF, 0.22uF, 2.2uF, 22uF, 220uF, 2200uF
+2.4pF, 24pF, 240pF, 2400pF
+2.7pF, 27pF, 270pF, 2700pF
+3.0pF, 30pF, 300pF, 3000pF
+3.3pF, 33pF, 330pF, 3300pF, 0.033uF, 0.33uF, 3.3uF, 33uF, 330uF, 3300uF
+3.6pF, 36pF, 360pF, 3600pF
+3.9pF, 39pF, 390pF, 3900pF
+4.3pF, 43pF, 430pF, 4300pF
+4.7pF, 47pF, 470pF, 4700pF, 0.047uF, 0.47uF, 4.7uF, 47uF, 470uF, 4700uF
+5.1pF, 51pF, 510pF, 5100pF
+5.6pF, 56pF, 560pF, 5600pF
+6.2pF, 62pF, 620pF, 6200pF
+6.8pF, 68pF, 680pF, 6800pF, 0.068uF, 0.68uF, 6.8uF, 68uF, 680uF, 6800uF
+7.5pF, 75pF, 750pF, 7500pF
+8.2pF, 82pF, 820pF, 8200pF
+9.1pF, 91pF, 910pF, 9100pF #generics #CommonPartsLibrary",""
+"C29","CL10C470JB8NNNC","1","","A generic fixed capacitor ideal for rapid circuit topology development. You can choose between polarized and non-polarized types, its symbol and the footprint will automatically adapt based on your selection. Supported options include standard SMD sizes for ceramic capacitors (e.g., 0402, 0603, 0805), SMD sizes for aluminum electrolytic capacitors, and through-hole footprints for polarized capacitors. 
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard capacitor values: 1.0pF, 10pF, 100pF, 1000pF, 0.01uF, 0.1uF, 1.0uF, 10uF, 100uF, 1000uF, 10000uF
+1.1pF, 11pF, 110pF, 1100pF
+1.2pF, 12pF, 120pF, 1200pF
+1.3pF, 13pF, 130pF, 1300pF
+1.5pF, 15pF, 150pF, 1500pF, 0.015uF, 0.15uF, 1.5uF, 15uF, 150uF, 1500uF
+1.6pF, 16pF, 160pF, 1600pF
+1.8pF, 18pF, 180pF, 1800pF
+2.0pF, 20pF, 200pF, 2000pF
+2.2pF, 22pF, 220pF, 2200pF, 0.022uF, 0.22uF, 2.2uF, 22uF, 220uF, 2200uF
+2.4pF, 24pF, 240pF, 2400pF
+2.7pF, 27pF, 270pF, 2700pF
+3.0pF, 30pF, 300pF, 3000pF
+3.3pF, 33pF, 330pF, 3300pF, 0.033uF, 0.33uF, 3.3uF, 33uF, 330uF, 3300uF
+3.6pF, 36pF, 360pF, 3600pF
+3.9pF, 39pF, 390pF, 3900pF
+4.3pF, 43pF, 430pF, 4300pF
+4.7pF, 47pF, 470pF, 4700pF, 0.047uF, 0.47uF, 4.7uF, 47uF, 470uF, 4700uF
+5.1pF, 51pF, 510pF, 5100pF
+5.6pF, 56pF, 560pF, 5600pF
+6.2pF, 62pF, 620pF, 6200pF
+6.8pF, 68pF, 680pF, 6800pF, 0.068uF, 0.68uF, 6.8uF, 68uF, 680uF, 6800uF
+7.5pF, 75pF, 750pF, 7500pF
+8.2pF, 82pF, 820pF, 8200pF
+9.1pF, 91pF, 910pF, 9100pF #generics #CommonPartsLibrary",""
+"D1","USBLC6-2SC6","1","","17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 #C7519",""
+"D2","SMF5.0A","1","","9.2VC Clamp 21.8A Ipp TVS DIODE SOD-123FL 
+
+The SMF5.0A is a unidirectional Transient Voltage Suppressor (TVS) diode designed to protect sensitive electronic circuits from electrostatic discharge (ESD), lightning surges, and other transient overvoltage events. It is commonly used on 5V power rails, USB VBUS lines, DC inputs, and general-purpose power protection applications. The device comes in a compact surface-mount SOD-123FL/SMF package suitable for space-constrained PCB designs.
+
+Key Features
+5V reverse standoff voltage (VRWM)
+200W peak pulse power dissipation (10/1000µs waveform)
+Fast response time for transient suppression
+Low clamping voltage (~9.2V max)
+Unidirectional TVS protection
+Excellent ESD and surge protection capability
+Compact SOD-123FL / SMF surface-mount package
+Low leakage current
+Operating temperature up to +150°C
+RoHS compliant and halogen-free variants available",""
+"F1","SMD050F-2","1","","Polymeric PTC Resettable Fuse 60V 500 mA Ih Surface Mount 2-SMD 500mA resettable fuse pptc
+
+The SMD050F-2 is a surface-mount resettable fuse (PPTC – Polymer Positive Temperature Coefficient) designed to provide overcurrent protection in low-voltage electronic circuits. It operates by increasing its resistance significantly when excessive current flows, thereby limiting current and protecting downstream components. Once the fault condition is removed and the device cools, it automatically resets to its low-resistance state, enabling normal operation without replacement.
+
+This component is commonly used in power supply lines, USB ports, battery-powered devices, and general electronic protection applications where space-saving and reliability are important.
+
+Key Features
+Resettable overcurrent protection (self-recovering)
+Surface-mount package for compact PCB layouts
+Low resistance in normal operation
+Fast response to fault conditions
+Automatic reset after fault removal
+RoHS compliant and lead-free
+Electrical Characteristics
+Hold current: 0.5 A
+Trip current: 1.0 A (typical)
+Maximum voltage: 60 V
+Maximum current: 40 A (fault current rating)
+Initial resistance: low resistance range suitable for minimal voltage drop
+Resistance after trip: significantly increased to limit current
+Thermal Characteristics
+Operating temperature range: -40°C to +85°C
+Trip time dependent on applied current and ambient temperature
+Reset time dependent on cooling conditions
+Mechanical Characteristics
+Package type: Surface-mount (SMD)
+Compact footprint suitable for dense PCB layouts
+Compatible with standard reflow soldering processes
+Applications
+USB and peripheral port protection
+Power supply and DC line protection
+Battery pack protection
+Consumer electronics
+Industrial control circuits
+Compliance and Standards
+RoHS compliant
+Halogen-free (depending on manufacturer variant)
+Meets industry standards for resettable fuses
+
+#commonpartslibrary
+#circuitprotection
+#ptc
+#fuse",""
+"FB1","BLM18AG601SN1D","1","","600 Ohms @ 100 MHz 1 Ferrite Bead 0603 (1608 Metric) ferrite bead 600 ohm 0603 ferrite bead 600 ohm 100MHz 0603 ferrite bead 0603 600ohm
+
+The BLM18AG601SN1D is a surface-mount ferrite bead designed for suppression of high-frequency noise in electronic circuits. It provides high impedance at high frequencies while maintaining low DC resistance, making it suitable for power lines and signal line filtering. This component is commonly used in portable electronics, communication devices, and general digital circuits to improve EMI performance.
+
+ELECTRICAL CHARACTERISTICS
+Impedance: 600 Ω ±25% @ 100 MHz
+Rated Current: 500 mA (max)
+DC Resistance (DCR): 0.5 Ω (typ), 0.8 Ω (max)
+Insulation Resistance: 10 MΩ min
+
+PHYSICAL CHARACTERISTICS
+Package Size: 0603 (1608 Metric)
+Length: 1.6 mm
+Width: 0.8 mm
+Height: 0.8 mm (typ)
+Mounting Type: Surface Mount (SMD)
+
+ENVIRONMENTAL & OPERATING CONDITIONS
+Operating Temperature Range: -55°C to +125°C
+Storage Temperature Range: -55°C to +125°C
+
+APPLICATIONS
+Power supply line noise suppression
+Signal line EMI filtering
+Mobile devices and handheld electronics
+Computers and peripherals
+Consumer electronics
+
+FEATURES
+High impedance at high frequencies for effective noise suppression
+Low DC resistance minimizes signal/power loss
+Compact 0603 package suitable for high-density PCB layouts
+Reliable multilayer construction
+Lead-free and RoHS compliant
+
+PACKAGING
+Packaging Type: Tape and Reel
+Standard Reel Quantity: Typically 4000 pcs/reel
+
+#CommonPartLibrary #Filter #FerriteBead",""
+"J1","USB4105-GF-A","1","","USB Type-C receptacle connector providing a USB 2.0 interface for PCB top-mount applications. This surface-mount receptacle is rated for 48 VDC and 240 W, with a 5.0 A collective VBUS current rating, 6.25 A collective GND current rating, 1.25 A VCONN current rating, and an operating temperature range of -40°C to +85°C.
+
+#USBTypeC #USB2_0 #ReceptacleConnector #SMT #TopMount #48V #240W #5A #GCT #PCBComponents",""
+"J3","S2B-PH-K-S(LF)(SN)","1","","Wire To Board / Wire To Wire Connector
+S2B-PH-K-S(LF)(SN)
+CONN-TH_S2B-PH-K-S-LF-SN
+LCSC Part Number: C173752
+JLCPCB Part Class: Extended Part
+Manufactured by JST 
+Connector Header Through Hole, Right Angle 2 position
+battery connector JST PH 2-pin",""
+"J4","FTSH-103-01-L-DV","1",""," Connector Header Surface Mount 6 position 0.050"" (1.27mm)
+2x3 header 1.27mm
+2x3 SWD debug header 
+pin header 2x3 1.27mm
+2x3 1.27mm pin header",""
+"MK1","SPH0641LU4H-1","1","","100 Hz ~ 80 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-26dB ±1dB @ 94dB SPL) Solder Pads #CommonPartsLibrary #Audio #MEMS #Microphone",""
+"R1, R2","0603WAF5101T5E","2","","A generic fixed resistor ideal for rapid circuit topology development. Its footprint automatically adapts based on the selected package case code—supporting 0402, 0603, 0805, 1203, and many other standard SMD packages, as well as axial horizontal and vertical configurations.
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard resistor values:
+1.0 ohm, 10 ohm, 100 ohm, 1.0k ohm, 10k ohm, 100k ohm, 1.0M ohm
+1.1 ohm, 11 ohm, 110 ohm, 1.1k ohm, 11k ohm, 110k ohm, 1.1M ohm
+1.2 ohm, 12 ohm, 120 ohm, 1.2k ohm, 12k ohm, 120k ohm, 1.2M ohm
+1.3 ohm, 13 ohm, 130 ohm, 1.3k ohm, 13k ohm, 130k ohm, 1.3M ohm
+1.5 ohm, 15 ohm, 150 ohm, 1.5k ohm, 15k ohm, 150k ohm, 1.5M ohm
+1.6 ohm, 16 ohm, 160 ohm, 1.6k ohm, 16k ohm, 160k ohm, 1.6M ohm
+1.8 ohm, 18 ohm, 180 ohm, 1.8K ohm, 18k ohm, 180k ohm, 1.8M ohm
+2.0 ohm, 20 ohm, 200 ohm, 2.0k ohm, 20k ohm, 200k ohm, 2.0M ohm
+2.2 ohm, 22 ohm, 220 ohm, 2.2k ohm, 22k ohm, 220k ohm, 2.2M ohm
+2.4 ohm, 24 ohm, 240 ohm, 2.4k ohm, 24k ohm, 240k ohm, 2.4M ohm
+2.7 ohm, 27 ohm, 270 ohm, 2.7k ohm, 27k ohm, 270k ohm, 2.7M ohm
+3.0 ohm, 30 ohm, 300 ohm, 3.0K ohm, 30K ohm, 300K ohm, 3.0M ohm
+3.3 ohm, 33 ohm, 330 ohm, 3.3k ohm, 33k ohm, 330k ohm, 3.3M ohm
+3.6 ohm, 36 ohm, 360 ohm, 3.6k ohm, 36k ohm, 360k ohm, 3.6M ohm
+3.9 ohm, 39 ohm, 390 ohm, 3.9k ohm, 39k ohm, 390k ohm, 3.9M ohm
+4.3 ohm, 43 ohm, 430 ohm, 4.3k ohm, 43K ohm, 430K ohm, 4.3M ohm
+4.7 ohm, 47 ohm, 470 ohm, 4.7k ohm, 47k ohm, 470k ohm, 4.7M ohm
+5.1 ohm, 51 ohm, 510 ohm, 5.1k ohm, 51k ohm, 510k ohm, 5.1M ohm
+5.6 ohm, 56 ohm, 560 ohm, 5.6k ohm, 56k ohm, 560k ohm, 5.6M ohm
+6.2 ohm, 62 ohm, 620 ohm, 6.2k ohm, 62K ohm, 620K ohm, 6.2M ohm
+6.8 ohm, 68 ohm, 680 ohm, 6.8k ohm, 68k ohm, 680k ohm, 6.8M ohm
+7.5 ohm, 75 ohm, 750 ohm, 7.5k ohm, 75k ohm, 750k ohm, 7.5M ohm
+8.2 ohm, 82 ohm, 820 ohm, 8.2k ohm, 82k ohm, 820k ohm, 8.2M ohm
+9.1 ohm, 91 ohm, 910 ohm, 9.1k ohm, 91k ohm, 910k ohm, 9.1M ohm
+
+#generics #CommonPartsLibrary",""
+"R3, R4","0603WAF270JT5E","2","","A generic fixed resistor ideal for rapid circuit topology development. Its footprint automatically adapts based on the selected package case code—supporting 0402, 0603, 0805, 1203, and many other standard SMD packages, as well as axial horizontal and vertical configurations.
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard resistor values:
+1.0 ohm, 10 ohm, 100 ohm, 1.0k ohm, 10k ohm, 100k ohm, 1.0M ohm
+1.1 ohm, 11 ohm, 110 ohm, 1.1k ohm, 11k ohm, 110k ohm, 1.1M ohm
+1.2 ohm, 12 ohm, 120 ohm, 1.2k ohm, 12k ohm, 120k ohm, 1.2M ohm
+1.3 ohm, 13 ohm, 130 ohm, 1.3k ohm, 13k ohm, 130k ohm, 1.3M ohm
+1.5 ohm, 15 ohm, 150 ohm, 1.5k ohm, 15k ohm, 150k ohm, 1.5M ohm
+1.6 ohm, 16 ohm, 160 ohm, 1.6k ohm, 16k ohm, 160k ohm, 1.6M ohm
+1.8 ohm, 18 ohm, 180 ohm, 1.8K ohm, 18k ohm, 180k ohm, 1.8M ohm
+2.0 ohm, 20 ohm, 200 ohm, 2.0k ohm, 20k ohm, 200k ohm, 2.0M ohm
+2.2 ohm, 22 ohm, 220 ohm, 2.2k ohm, 22k ohm, 220k ohm, 2.2M ohm
+2.4 ohm, 24 ohm, 240 ohm, 2.4k ohm, 24k ohm, 240k ohm, 2.4M ohm
+2.7 ohm, 27 ohm, 270 ohm, 2.7k ohm, 27k ohm, 270k ohm, 2.7M ohm
+3.0 ohm, 30 ohm, 300 ohm, 3.0K ohm, 30K ohm, 300K ohm, 3.0M ohm
+3.3 ohm, 33 ohm, 330 ohm, 3.3k ohm, 33k ohm, 330k ohm, 3.3M ohm
+3.6 ohm, 36 ohm, 360 ohm, 3.6k ohm, 36k ohm, 360k ohm, 3.6M ohm
+3.9 ohm, 39 ohm, 390 ohm, 3.9k ohm, 39k ohm, 390k ohm, 3.9M ohm
+4.3 ohm, 43 ohm, 430 ohm, 4.3k ohm, 43K ohm, 430K ohm, 4.3M ohm
+4.7 ohm, 47 ohm, 470 ohm, 4.7k ohm, 47k ohm, 470k ohm, 4.7M ohm
+5.1 ohm, 51 ohm, 510 ohm, 5.1k ohm, 51k ohm, 510k ohm, 5.1M ohm
+5.6 ohm, 56 ohm, 560 ohm, 5.6k ohm, 56k ohm, 560k ohm, 5.6M ohm
+6.2 ohm, 62 ohm, 620 ohm, 6.2k ohm, 62K ohm, 620K ohm, 6.2M ohm
+6.8 ohm, 68 ohm, 680 ohm, 6.8k ohm, 68k ohm, 680k ohm, 6.8M ohm
+7.5 ohm, 75 ohm, 750 ohm, 7.5k ohm, 75k ohm, 750k ohm, 7.5M ohm
+8.2 ohm, 82 ohm, 820 ohm, 8.2k ohm, 82k ohm, 820k ohm, 8.2M ohm
+9.1 ohm, 91 ohm, 910 ohm, 9.1k ohm, 91k ohm, 910k ohm, 9.1M ohm
+
+#generics #CommonPartsLibrary",""
+"R5, R6","0603WAF1001T5E","2","","A generic fixed resistor ideal for rapid circuit topology development. Its footprint automatically adapts based on the selected package case code—supporting 0402, 0603, 0805, 1203, and many other standard SMD packages, as well as axial horizontal and vertical configurations.
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard resistor values:
+1.0 ohm, 10 ohm, 100 ohm, 1.0k ohm, 10k ohm, 100k ohm, 1.0M ohm
+1.1 ohm, 11 ohm, 110 ohm, 1.1k ohm, 11k ohm, 110k ohm, 1.1M ohm
+1.2 ohm, 12 ohm, 120 ohm, 1.2k ohm, 12k ohm, 120k ohm, 1.2M ohm
+1.3 ohm, 13 ohm, 130 ohm, 1.3k ohm, 13k ohm, 130k ohm, 1.3M ohm
+1.5 ohm, 15 ohm, 150 ohm, 1.5k ohm, 15k ohm, 150k ohm, 1.5M ohm
+1.6 ohm, 16 ohm, 160 ohm, 1.6k ohm, 16k ohm, 160k ohm, 1.6M ohm
+1.8 ohm, 18 ohm, 180 ohm, 1.8K ohm, 18k ohm, 180k ohm, 1.8M ohm
+2.0 ohm, 20 ohm, 200 ohm, 2.0k ohm, 20k ohm, 200k ohm, 2.0M ohm
+2.2 ohm, 22 ohm, 220 ohm, 2.2k ohm, 22k ohm, 220k ohm, 2.2M ohm
+2.4 ohm, 24 ohm, 240 ohm, 2.4k ohm, 24k ohm, 240k ohm, 2.4M ohm
+2.7 ohm, 27 ohm, 270 ohm, 2.7k ohm, 27k ohm, 270k ohm, 2.7M ohm
+3.0 ohm, 30 ohm, 300 ohm, 3.0K ohm, 30K ohm, 300K ohm, 3.0M ohm
+3.3 ohm, 33 ohm, 330 ohm, 3.3k ohm, 33k ohm, 330k ohm, 3.3M ohm
+3.6 ohm, 36 ohm, 360 ohm, 3.6k ohm, 36k ohm, 360k ohm, 3.6M ohm
+3.9 ohm, 39 ohm, 390 ohm, 3.9k ohm, 39k ohm, 390k ohm, 3.9M ohm
+4.3 ohm, 43 ohm, 430 ohm, 4.3k ohm, 43K ohm, 430K ohm, 4.3M ohm
+4.7 ohm, 47 ohm, 470 ohm, 4.7k ohm, 47k ohm, 470k ohm, 4.7M ohm
+5.1 ohm, 51 ohm, 510 ohm, 5.1k ohm, 51k ohm, 510k ohm, 5.1M ohm
+5.6 ohm, 56 ohm, 560 ohm, 5.6k ohm, 56k ohm, 560k ohm, 5.6M ohm
+6.2 ohm, 62 ohm, 620 ohm, 6.2k ohm, 62K ohm, 620K ohm, 6.2M ohm
+6.8 ohm, 68 ohm, 680 ohm, 6.8k ohm, 68k ohm, 680k ohm, 6.8M ohm
+7.5 ohm, 75 ohm, 750 ohm, 7.5k ohm, 75k ohm, 750k ohm, 7.5M ohm
+8.2 ohm, 82 ohm, 820 ohm, 8.2k ohm, 82k ohm, 820k ohm, 8.2M ohm
+9.1 ohm, 91 ohm, 910 ohm, 9.1k ohm, 91k ohm, 910k ohm, 9.1M ohm
+
+#generics #CommonPartsLibrary",""
+"R14, R15, R7, R8, R9","0603WAF1002T5E","5","","A generic fixed resistor ideal for rapid circuit topology development. Its footprint automatically adapts based on the selected package case code—supporting 0402, 0603, 0805, 1203, and many other standard SMD packages, as well as axial horizontal and vertical configurations.
+
+Save precious design time by seamlessly add more information to this part (value, footprint, etc.) as it becomes available.
+
+Standard resistor values:
+1.0 ohm, 10 ohm, 100 ohm, 1.0k ohm, 10k ohm, 100k ohm, 1.0M ohm
+1.1 ohm, 11 ohm, 110 ohm, 1.1k ohm, 11k ohm, 110k ohm, 1.1M ohm
+1.2 ohm, 12 ohm, 120 ohm, 1.2k ohm, 12k ohm, 120k ohm, 1.2M ohm
+1.3 ohm, 13 ohm, 130 ohm, 1.3k ohm, 13k ohm, 130k ohm, 1.3M ohm
+1.5 ohm, 15 ohm, 150 ohm, 1.5k ohm, 15k ohm, 150k ohm, 1.5M ohm
+1.6 ohm, 16 ohm, 160 ohm, 1.6k ohm, 16k ohm, 160k ohm, 1.6M ohm
+1.8 ohm, 18 ohm, 180 ohm, 1.8K ohm, 18k ohm, 180k ohm, 1.8M ohm
+2.0 ohm, 20 ohm, 200 ohm, 2.0k ohm, 20k ohm, 200k ohm, 2.0M ohm
+2.2 ohm, 22 ohm, 220 ohm, 2.2k ohm, 22k ohm, 220k ohm, 2.2M ohm
+2.4 ohm, 24 ohm, 240 ohm, 2.4k ohm, 24k ohm, 240k ohm, 2.4M ohm
+2.7 ohm, 27 ohm, 270 ohm, 2.7k ohm, 27k ohm, 270k ohm, 2.7M ohm
+3.0 ohm, 30 ohm, 300 ohm, 3.0K ohm, 30K ohm, 300K ohm, 3.0M ohm
+3.3 ohm, 33 ohm, 330 ohm, 3.3k ohm, 33k ohm, 330k ohm, 3.3M ohm
+3.6 ohm, 36 ohm, 360 ohm, 3.6k ohm, 36k ohm, 360k ohm, 3.6M ohm
+3.9 ohm, 39 ohm, 390 ohm, 3.9k ohm, 39k ohm, 390k ohm, 3.9M ohm
+4.3 ohm, 43 ohm, 430 ohm, 4.3k ohm, 43K ohm, 430K ohm, 4.3M ohm
+4.7 ohm, 47 ohm, 470 ohm, 4.7k ohm, 47k ohm, 470k ohm, 4.7M ohm
+5.1 ohm, 51 ohm, 510 ohm, 5.1k ohm, 51k ohm, 510k ohm, 5.1M ohm
+5.6 ohm, 56 ohm, 560 ohm, 5.6k ohm, 56k ohm, 560k ohm, 5.6M ohm
+6.2 ohm, 62 ohm, 620 ohm, 6.2k ohm, 62K ohm, 620K ohm, 6.2M ohm
+6.8 ohm, 68 ohm, 680 ohm, 6.8k ohm, 68k ohm, 680k ohm, 6.8M ohm
+7.5 ohm, 75 ohm, 750 ohm, 7.5k ohm, 75k ohm, 750k ohm, 7.5M ohm
+8.2 ohm, 82 ohm, 820 ohm, 8.2k ohm, 82k ohm, 820k ohm, 8.2M ohm
+9.1 ohm, 91 ohm, 910 ohm, 9.1k ohm, 91k ohm, 910k ohm, 9.1M ohm
+
+#generics #CommonPartsLibrary",""
+"SW1, SW2","B3U-3000P","2","","Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle #commonpartslibrary
+#switch
+#tactile
+#spst",""
+"SW3, SW4","TS-1088-AR02016","2","","50mA 4mm 100MΩ 100,000 Times 12V 160gf 3mm 2mm Round Button Vertical welding SPST SMD Tactile Switches ROHS
+Tactile Switches
+TS-1088-AR02016
+SW-SMD_L3.9-W3.0-P4.45
+LCSC Part Number: C720477
+JLCPCB Part Class: Extended Part
+Manufactured by XUNPU(讯普) momentary tactile switch, SMD
+6 mm tactile push button, through-hole
+SPST on/off mechanical switch
+momentary pushbutton for BOOT / RESET / PTT",""
+"U1","RP2040","1","","A microcontroller by Raspberry Pi
+RP2040 ARM Cortex-M0+ USB
+QFN*1EP*7x7mm?P0.4mm* ",""
+"U2","W25Q16JVUXIQ","1","","SPI Flash Serial Flash Memory with Dual/Quad SPI
+
+The W25Q16JVUXIQ is a 16-Mbit (2-MByte) Serial NOR Flash memory device from Winbond. It is designed for embedded systems that require non-volatile code and data storage with minimal pin count, low power consumption, and high-speed access. The device supports standard SPI, Dual SPI, and Quad SPI interfaces, making it suitable for firmware storage, boot memory, IoT devices, microcontrollers, consumer electronics, and execute-in-place (XIP) applications.
+
+Key Features
+16-Mbit (2-MByte) Flash Memory Capacity
+Operating Voltage: 2.7 V to 3.6 V
+Standard SPI, Dual SPI, and Quad SPI Interface Support
+Maximum SPI Clock Frequency: 133 MHz
+Equivalent Data Transfer Rates:
+266 MHz (Dual SPI)
+532 MHz (Quad SPI)
+Continuous Read and XIP (Execute-In-Place) Capability
+4 KB Sector Erase, 32 KB Block Erase, 64 KB Block Erase, and Chip Erase
+256-Byte Programmable Page Size
+Minimum 100,000 Program/Erase Cycles per Sector
+More Than 20 Years Data Retention
+Ultra-Low Power Consumption
+Typical power-down current below 1 µA
+64-Bit Unique Serial Number
+Three 256-Byte Security Registers with OTP Protection
+JEDEC ID and SFDP Support
+Software and Hardware Write Protection
+Operating Temperature Options up to +85°C and +105°C
+Compact 8-Pad USON Package (2 mm × 3 mm) suitable for space-constrained designs
+
+#CommonPartsLibrary #IntegratedCircuit #Memory",""
+"U3","MAX98357AETE+T","1","","3.2Wx2@4Ω TQFN-16-EP(3x3) Audio Power OpAmps ROHS
+
+Imported from Samacsys
+
+QFN50P300X300X80-17N
+https://datasheets.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf
+Audio Amplifiers Digital Input Class D Amplifier
+0.8
+Analog Devices
+MAX98357AETE+T
+700-MAX98357AETE+T
+https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX98357AETE%2bT?qs=AAveGqk956HhNpoJjF5x2g%3D%3D
+MAX98357AETE+T
+https://www.arrow.com/en/products/max98357aetet/analog-devices?region=nac
+#part",""
+"U5","MCP1825T-3302E/DC","1","","Linear Voltage Regulator IC Positive Fixed 1 Output 500mA SOT-223-5
+
+Linear Voltage Regulator (LDO) providing a fixed 3.3 V output with up to 500 mA output current from an input voltage range of 2.3 V to 6.0 V. It features low dropout voltage, stable operation with ceramic output capacitors, current limiting, short-circuit protection, and overtemperature protection, making it suitable for low-voltage power regulation applications.
+
+#LDO #LinearVoltageRegulator #FixedOutput #3V3 #500mA #LowDropout #PowerManagement #Microchip",""
+"Y1","ABM8-272-T3","1","","Crystal, 12 MHz, SMD, 3.2mm x 2.5mm, 30 ppm, 10 pF, 30 ppm, ABM8 Series
+ABM8-272-T3 is an ultra-miniature surface-mount quartz crystal from Abracon designed for precision clock generation in embedded systems and microcontroller applications. The crystal operates at 12.000MHz in fundamental AT-cut mode and is packaged in a compact 3.2mm × 2.5mm × 0.8mm ceramic SMD package. It features ±30ppm frequency tolerance and stability, 10pF load capacitance, 50Ω maximum ESR, and low drive power requirements. The device operates across an industrial temperature range of -40°C to +85°C and is hermetically sealed with MSL1 moisture sensitivity rating. The ABM8-272-T3 is approved for use with Raspberry Pi RP2040 and RP235x microcontrollers and is suitable for embedded controllers, IoT devices, communication equipment, industrial electronics, and precision timing applications.
+
+Search Keywords:
+ABM8-272-T3, Abracon ABM8, 12MHz crystal, 12.000MHz crystal, quartz crystal, SMD crystal, ceramic crystal resonator, RP2040 crystal, RP2350 crystal, Raspberry Pi crystal, clock crystal, oscillator crystal, timing crystal, MCU clock source, embedded crystal, surface mount crystal, AT cut crystal, 10pF crystal, 3.2x2.5mm crystal, frequency reference
+
+Hashtags:
+#ABM8272T3
+#Abracon
+#12MHzCrystal
+#QuartzCrystal
+#SMDCrystal
+#ClockSource
+#Oscillator
+#TimingCircuit
+#RP2040
+#RP2350
+#RaspberryPi
+#Microcontroller
+#EmbeddedSystems
+#IoT
+#Electronics
+#ElectronicComponents
+#PCBDesign
+#HardwareDesign
+#FrequencyReference
+#CrystalOscillator",""

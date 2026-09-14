@@ -1,0 +1,88 @@
+Claude Handset  #3cf75256  -  hand-patched Gerber export
+=========================================================
+These Gerbers were edited directly (the Flux project was NOT changed) to fix the
+DRC faults Flux reported. Coordinates below are mm from the board centre, the same
+origin as the IPC-D-356 netlist. Original files are byte-identical to the Flux
+export except for the items listed here.
+
+1. 3V3 shorted to 3V3_PWRGD (Flux "Overlapping Copper", Through-hole - 1)
+   - Removed the 3V3 via at (-1.50, 4.00). It sat on the PWRGD trace and also
+     overlapped the second 3V3 via 0.35 mm away.
+   - Kept the 3V3 via at (-1.42, 3.66); its pad is now 0.5 mm (0.3 mm drill) on
+     all four layers so it clears the PWRGD trace by 0.16 mm.
+   - Deleted the three 0.1 mm top-layer feeder segments to the removed via and
+     added a 0.15 mm segment from the existing 3V3 trace end (-1.83, 3.41) to the
+     kept via.
+
+2. 3V3 open (Flux "Airwire" 3V3, traces 7d11 / dcde)
+   - The group feeding RP2040 VREG_VIN, USB_VDD, ADC_AVDD and three IOVDD pins
+     (with C7, C8, C9, C13, C15, C16) was isolated.
+   - Added a 3V3 via at (-12.79, -8.20) on the existing 3V3 trace just below
+     FB1 pin 1, and a 0.254 mm inner-layer-1 trace from it to the existing 3V3
+     via at (-9.16, -5.86). The ground planes on In1, In2 and Bottom are cleared
+     0.2 mm around the new via and trace (negative-polarity LPC objects at the end
+     of each copper file); the top ground fill is cleared around the via too.
+   - Deleted the redundant top-layer 3V3 trace (-4.29,-4.00)-(-6.09,-4.00)-
+     (-6.24,-1.47) between C10 and C14 (both ends are fed elsewhere) to make room
+     for item 3.
+
+3. GND opens (Flux "Airwire" GND, C10:P2 / C14:P2, traces 549b / ee7e, and the
+   "Fill: None" items)
+   - RP2040 exposed pad had no ground connection at all: added four 0.6 mm GND
+     vias inside it at (-7.30, 1.65), (-4.90, 1.70), (-6.00, 2.60), (-6.00, 0.70).
+   - C10:P2 and C14:P2: added a GND via at (-5.80, -4.10) with 0.25 mm links into
+     both pads.
+   - C13:P2 / C16:P2: added a 0.5 mm-pad GND via at (-8.50, -6.40) with a 0.3 mm
+     link from the end of their wide stub at (-8.23, -6.06).
+
+4. Drill file and IPC-D-356 netlist updated to match (7 vias added, 1 removed,
+   one via pad size changed). Solder mask / paste files untouched: all vias in
+   this export are tented, and no via was placed inside an SMD pad.
+
+Verification (script-based, pure geometry from the Gerbers + netlist):
+   - every net is one copper island; no island carries two nets; no floating copper
+   - no new copper-to-copper spacing below 0.127 mm was introduced; the deleted
+     0.1 mm feeders removed the worst pre-existing spacing (0.044 mm)
+   - JLCPCB 4-layer limits used: 0.09 mm spacing, 0.15 mm via hole, 0.25 mm via pad
+
+Not fixed (pre-existing, outside the DRC list): several spacings under 0.09 mm
+remain from the original layout, e.g. USB-C pads vs traces at 0.050 mm around
+(-0.25, -21.3), MCU_RUN pad vs SWDIO trace 0.069 mm at (-7.8, 5.4), F13/F14 button
+traces vs 3V3 near the RP2040 east pins 0.069-0.089 mm.
+
+Renders of the edited areas are in patch-renders/ (orig_* = before, site_* = after;
+red = top, green = In1, blue = In2, orange = bottom).
+
+Patch 2 - decoupling capacitors moved next to the pins they serve
+================================================================
+   - C24 (100 nF, VBUS_5V) moved from (7.0, -0.5) to (12.3, -4.6), directly below the
+     MAX98357A VDD pins; its VBUS pad sits on the existing VDD trace, its GND pad on the
+     top ground fill. Old pads and the two feeder segments removed. 1.18 mm from the pin.
+   - C11 (100 nF, 1V1_CORE) moved from (-0.5, -3.0) to (-6.45, 6.95) and changed to an 0402
+     (Samsung CL05B104KO5NNNC, LCSC C1525) so it fits between the RP2040's north pin row and
+     the crystal. Its 1V1 pad is fed straight up from pin 23 (DVDD); its GND pad links to the
+     crystal's GND pad. 1.07 mm from the pin. The BOMs and pick-and-place carry the new
+     footprint. Old pads and five feeder stubs removed.
+   - C6 (100 nF, 3V3) moved from (-1.5, 6.8) to (-2.3, 6.9), the closest an 0603 can get to
+     RP2040 pin 22 (north IOVDD) without rerouting the crystal: 3.45 mm instead of 4.15 mm.
+     Its 3V3 pad picks up the existing 3V3 stubs, its GND pad sits on the ground fill.
+   - To make room for C11, pin 22's 3V3 feed now leaves the pad diagonally to x = -5.85 and
+     the 3V3 via that fed it moved from (-6.19, 7.27) to (-5.75, 7.27) with a 0.5 mm pad;
+     the bottom-layer 3V3 trace was redrawn to end on the moved via.
+   - Top ground fill cleared 0.15 mm around every relocated non-GND pad and along the new
+     top traces (negative-polarity objects at the end of f_cu); plane clearances added on
+     the inner/bottom layers for the moved via. Mask and paste openings follow the pads;
+     silkscreen body marks moved with the parts (the C24 label moved, the C6 and C11 labels
+     were left where they were).
+   - Re-verified: no shorts, no opens, no new spacing below 0.127 mm; wiring simulator
+     142/143 with the remaining note being C6 at 3.45 mm.
+   Renders: patch-renders/caps_north_*.png and caps_amp_*.png. Files before patch 2 are in
+   the session scratchpad only; original-flux-export/ still holds the untouched export.
+
+Gerber syntax note (after patch 2)
+----------------------------------
+   The patch blocks had deleted all file attributes (%TD*%) before the export's own trailing
+   %TD.AperFunction*%, which a strict RS-274X parser rejects as deleting an undefined attribute.
+   A %TA.AperFunction,Conductor*% line was added before that trailer in the four copper files.
+   All 12 files now parse cleanly with an independent parser (gerbonara 1.x); the negative-
+   polarity clearances render as intended there too. jlcpcb/ holds the upload pack.

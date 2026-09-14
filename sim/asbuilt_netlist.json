@@ -1,0 +1,3594 @@
+{
+ "pads": [
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 0.732,
+   "y": 3.216,
+   "intended": "F13_BTN_N",
+   "island": 1270,
+   "through": true,
+   "asbuilt": "F13_BTN_N"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 17.47,
+   "y": 17.163,
+   "intended": "F13_BTN_N",
+   "island": 1270,
+   "through": true,
+   "asbuilt": "F13_BTN_N"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 2.324,
+   "y": 6.576,
+   "intended": "F13_BTN_N",
+   "island": 1270,
+   "through": true,
+   "asbuilt": "F13_BTN_N"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 3.475,
+   "y": 7.8,
+   "intended": "F13_BTN_N",
+   "island": 1270,
+   "through": true,
+   "asbuilt": "F13_BTN_N"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -1.704,
+   "y": 1.669,
+   "intended": "I2S_DAC_DATA",
+   "island": 1274,
+   "through": true,
+   "asbuilt": "I2S_DAC_DATA"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 7.175,
+   "y": -1.494,
+   "intended": "I2S_DAC_DATA",
+   "island": 1274,
+   "through": true,
+   "asbuilt": "I2S_DAC_DATA"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -1.59,
+   "y": 0.884,
+   "intended": "I2S_LRCLK",
+   "island": 1371,
+   "through": true,
+   "asbuilt": "I2S_LRCLK"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 10.224,
+   "y": 0.277,
+   "intended": "I2S_LRCLK",
+   "island": 1371,
+   "through": true,
+   "asbuilt": "I2S_LRCLK"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -8.418,
+   "y": 0.978,
+   "intended": "QSPI_SCLK",
+   "island": 1277,
+   "through": true,
+   "asbuilt": "QSPI_SCLK"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -15.916,
+   "y": -0.325,
+   "intended": "QSPI_SCLK",
+   "island": 1277,
+   "through": true,
+   "asbuilt": "QSPI_SCLK"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -6.03,
+   "y": -5.946,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": true,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -6.599,
+   "y": 4.288,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": true,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -7.8,
+   "y": -2.286,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": true,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -1.252,
+   "y": -4.526,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": true,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -5.799,
+   "y": -0.589,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": true,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -8.125,
+   "y": -0.465,
+   "intended": "USB_DM",
+   "island": 1286,
+   "through": true,
+   "asbuilt": "USB_DM"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 0.432,
+   "y": -1.036,
+   "intended": "USB_DM",
+   "island": 1286,
+   "through": true,
+   "asbuilt": "USB_DM"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 0.622,
+   "y": -13.363,
+   "intended": "USB_DM",
+   "island": 1286,
+   "through": true,
+   "asbuilt": "USB_DM"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 1.4,
+   "y": 7.137,
+   "intended": "F14_BTN_N",
+   "island": 1287,
+   "through": true,
+   "asbuilt": "F14_BTN_N"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -3.538,
+   "y": 3.947,
+   "intended": "F14_BTN_N",
+   "island": 1287,
+   "through": true,
+   "asbuilt": "F14_BTN_N"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -12.586,
+   "y": -1.25,
+   "intended": "QSPI_SD2",
+   "island": 1290,
+   "through": true,
+   "asbuilt": "QSPI_SD2"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -4.412,
+   "y": -2.256,
+   "intended": "QSPI_SD2",
+   "island": 1290,
+   "through": true,
+   "asbuilt": "QSPI_SD2"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 8.334,
+   "y": -2.751,
+   "intended": "AMP_SD_MODE",
+   "island": 1291,
+   "through": true,
+   "asbuilt": "AMP_SD_MODE"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -8.504,
+   "y": 3.876,
+   "intended": "AMP_SD_MODE",
+   "island": 1291,
+   "through": true,
+   "asbuilt": "AMP_SD_MODE"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -2.53,
+   "y": -19.69,
+   "intended": "USB_VBUS_RAW",
+   "island": 1294,
+   "through": true,
+   "asbuilt": "USB_VBUS_RAW"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 1.755,
+   "y": -23.97,
+   "intended": "USB_VBUS_RAW",
+   "island": 1294,
+   "through": true,
+   "asbuilt": "USB_VBUS_RAW"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -10.051,
+   "y": 6.157,
+   "intended": "XOSC_OUT",
+   "island": 1296,
+   "through": true,
+   "asbuilt": "XOSC_OUT"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -4.846,
+   "y": 4.463,
+   "intended": "XOSC_OUT",
+   "island": 1296,
+   "through": true,
+   "asbuilt": "XOSC_OUT"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -21.092,
+   "y": 9.873,
+   "intended": "SWCLK",
+   "island": 1298,
+   "through": true,
+   "asbuilt": "SWCLK"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -7.465,
+   "y": 7.269,
+   "intended": "SWCLK",
+   "island": 1298,
+   "through": true,
+   "asbuilt": "SWCLK"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -15.598,
+   "y": -1.981,
+   "intended": "QSPI_SD3",
+   "island": 1300,
+   "through": true,
+   "asbuilt": "QSPI_SD3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -5.4,
+   "y": -2.296,
+   "intended": "QSPI_SD3",
+   "island": 1300,
+   "through": true,
+   "asbuilt": "QSPI_SD3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -11.201,
+   "y": -3.129,
+   "intended": "QSPI_CS_FLASH",
+   "island": 1301,
+   "through": true,
+   "asbuilt": "QSPI_CS_FLASH"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -13.49,
+   "y": -4.895,
+   "intended": "QSPI_CS_FLASH",
+   "island": 1301,
+   "through": true,
+   "asbuilt": "QSPI_CS_FLASH"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -15.974,
+   "y": 3.294,
+   "intended": "QSPI_CS_FLASH",
+   "island": 1301,
+   "through": true,
+   "asbuilt": "QSPI_CS_FLASH"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -10.404,
+   "y": 13.879,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -0.246,
+   "y": 10.221,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -9.164,
+   "y": -5.862,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -6.2,
+   "y": -2.286,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 2.41,
+   "y": -0.97,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -2.276,
+   "y": 5.913,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -6.967,
+   "y": -5.911,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -20.432,
+   "y": 7.943,
+   "intended": "SWDIO",
+   "island": 1312,
+   "through": true,
+   "asbuilt": "SWDIO"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -7.861,
+   "y": 4.595,
+   "intended": "SWDIO",
+   "island": 1312,
+   "through": true,
+   "asbuilt": "SWDIO"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -16.154,
+   "y": 1.618,
+   "intended": "QSPI_SD0",
+   "island": 1314,
+   "through": true,
+   "asbuilt": "QSPI_SD0"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -4.328,
+   "y": -0.099,
+   "intended": "QSPI_SD0",
+   "island": 1314,
+   "through": true,
+   "asbuilt": "QSPI_SD0"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -1.6,
+   "y": -16.8,
+   "intended": "USB_DP_CONN",
+   "island": 1382,
+   "through": true,
+   "asbuilt": "USB_DP_CONN"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -17.066,
+   "y": 10.0,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -3.264,
+   "y": -7.866,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 0.693,
+   "y": -11.755,
+   "intended": "3V3_PWRGD",
+   "island": 1333,
+   "through": true,
+   "asbuilt": "3V3_PWRGD"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -8.418,
+   "y": 1.72,
+   "intended": "3V3_PWRGD",
+   "island": 1333,
+   "through": true,
+   "asbuilt": "3V3_PWRGD"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -2.713,
+   "y": -13.754,
+   "intended": "3V3_PWRGD",
+   "island": 1333,
+   "through": true,
+   "asbuilt": "3V3_PWRGD"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -3.459,
+   "y": -13.078,
+   "intended": "3V3_PWRGD",
+   "island": 1333,
+   "through": true,
+   "asbuilt": "3V3_PWRGD"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -7.242,
+   "y": -17.818,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": true,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 7.313,
+   "y": -12.484,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": true,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -0.376,
+   "y": -18.499,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": true,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -6.881,
+   "y": -0.569,
+   "intended": "USB_DP",
+   "island": 1326,
+   "through": true,
+   "asbuilt": "USB_DP"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -0.996,
+   "y": -14.679,
+   "intended": "USB_DP",
+   "island": 1326,
+   "through": true,
+   "asbuilt": "USB_DP"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 14.313,
+   "y": -2.25,
+   "intended": "SPKR_N",
+   "island": 1263,
+   "through": true,
+   "asbuilt": "SPKR_N"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -3.396,
+   "y": 2.2,
+   "intended": "PDM_CLK",
+   "island": 1328,
+   "through": true,
+   "asbuilt": "PDM_CLK"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -17.01,
+   "y": -9.749,
+   "intended": "PDM_CLK",
+   "island": 1328,
+   "through": true,
+   "asbuilt": "PDM_CLK"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -3.401,
+   "y": 1.45,
+   "intended": "PDM_DATA",
+   "island": 1330,
+   "through": true,
+   "asbuilt": "PDM_DATA"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -19.837,
+   "y": -7.874,
+   "intended": "PDM_DATA",
+   "island": 1330,
+   "through": true,
+   "asbuilt": "PDM_DATA"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -1.425,
+   "y": 3.66,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -7.3,
+   "y": 1.651,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -4.9,
+   "y": 1.699,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -5.999,
+   "y": 2.601,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -5.999,
+   "y": 0.701,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -5.799,
+   "y": -4.1,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -8.499,
+   "y": -6.401,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -12.789,
+   "y": -8.199,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -1.669,
+   "y": 4.79,
+   "intended": "3V3_PWRGD",
+   "island": 1333,
+   "through": true,
+   "asbuilt": "3V3_PWRGD"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -5.751,
+   "y": 7.269,
+   "intended": "3V3",
+   "island": 1308,
+   "through": true,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 1.425,
+   "y": -10.201,
+   "intended": "3V3_PWRGD",
+   "island": 1333,
+   "through": true,
+   "asbuilt": "3V3_PWRGD"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 0.0,
+   "y": 15.001,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 15.001,
+   "y": 0.0,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 15.001,
+   "y": -15.001,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -15.001,
+   "y": -15.001,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 4.47,
+   "y": -10.856,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 6.297,
+   "y": -24.285,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 8.148,
+   "y": -6.957,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -21.41,
+   "y": -8.664,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -14.0,
+   "y": 8.722,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -9.606,
+   "y": 11.113,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -17.884,
+   "y": -5.705,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -4.663,
+   "y": -19.901,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -0.178,
+   "y": -6.652,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -15.057,
+   "y": 5.961,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 2.342,
+   "y": -7.137,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -17.691,
+   "y": 2.677,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 5.364,
+   "y": 8.562,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 1.781,
+   "y": -15.636,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -4.046,
+   "y": -11.064,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -1.527,
+   "y": -9.693,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -14.371,
+   "y": -0.051,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -15.359,
+   "y": 3.904,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 8.893,
+   "y": -0.437,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 0.467,
+   "y": 5.776,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -0.605,
+   "y": -23.226,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -12.601,
+   "y": 0.089,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -12.733,
+   "y": 1.793,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -17.186,
+   "y": 0.376,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -19.075,
+   "y": -3.185,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 0.668,
+   "y": -2.918,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -15.375,
+   "y": 1.184,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -2.634,
+   "y": -12.797,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": 1.374,
+   "y": -1.001,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "",
+   "x": -11.158,
+   "y": 8.303,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "VIA",
+   "pin": "bf75",
+   "x": 3.2,
+   "y": -19.949,
+   "intended": "USB_DP_CONN",
+   "island": 1382,
+   "through": true,
+   "asbuilt": "USB_DP_CONN"
+  },
+  {
+   "ref": "C17",
+   "pin": "P1",
+   "x": -18.001,
+   "y": -2.276,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C17",
+   "pin": "P2",
+   "x": -18.001,
+   "y": -0.724,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "SW4",
+   "pin": "2",
+   "x": -12.819,
+   "y": 4.501,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "SW4",
+   "pin": "1",
+   "x": -17.181,
+   "y": 4.501,
+   "intended": "QSPI_CS_FLASH",
+   "island": 1301,
+   "through": false,
+   "asbuilt": "QSPI_CS_FLASH"
+  },
+  {
+   "ref": "C1",
+   "pin": "P1",
+   "x": 15.725,
+   "y": -15.999,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "C1",
+   "pin": "P2",
+   "x": 17.275,
+   "y": -15.999,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "SW3",
+   "pin": "2",
+   "x": -12.319,
+   "y": 13.0,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "SW3",
+   "pin": "1",
+   "x": -16.68,
+   "y": 13.0,
+   "intended": "MCU_RUN",
+   "island": 733,
+   "through": false,
+   "asbuilt": "MCU_RUN"
+  },
+  {
+   "ref": "F1",
+   "pin": "~",
+   "x": 8.999,
+   "y": -10.798,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "F1",
+   "pin": "~",
+   "x": 8.999,
+   "y": -18.197,
+   "intended": "USB_VBUS_RAW",
+   "island": 1294,
+   "through": false,
+   "asbuilt": "USB_VBUS_RAW"
+  },
+  {
+   "ref": "C8",
+   "pin": "P1",
+   "x": -11.501,
+   "y": -0.775,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C8",
+   "pin": "P2",
+   "x": -11.501,
+   "y": 0.775,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "J3",
+   "pin": "2",
+   "x": 20.0,
+   "y": -3.0,
+   "intended": "SPKR_N",
+   "island": 1263,
+   "through": true,
+   "asbuilt": "SPKR_N"
+  },
+  {
+   "ref": "J3",
+   "pin": "1",
+   "x": 20.0,
+   "y": -1.001,
+   "intended": "SPKR_P",
+   "island": 1264,
+   "through": true,
+   "asbuilt": "SPKR_P"
+  },
+  {
+   "ref": "FB1",
+   "pin": "2",
+   "x": -11.212,
+   "y": -7.399,
+   "intended": "MIC_3V3_FILT",
+   "island": 339,
+   "through": false,
+   "asbuilt": "MIC_3V3_FILT"
+  },
+  {
+   "ref": "FB1",
+   "pin": "1",
+   "x": -12.786,
+   "y": -7.399,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C2",
+   "pin": "P1",
+   "x": -8.25,
+   "y": -16.8,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "C2",
+   "pin": "P2",
+   "x": -6.35,
+   "y": -16.8,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "J1",
+   "pin": "GND_",
+   "x": 3.2,
+   "y": -21.346,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "J1",
+   "pin": "GND",
+   "x": -3.2,
+   "y": -21.346,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "J1",
+   "pin": "DN1",
+   "x": 0.249,
+   "y": -21.346,
+   "intended": "USB_DM_CONN",
+   "island": 743,
+   "through": false,
+   "asbuilt": "USB_DM_CONN"
+  },
+  {
+   "ref": "J1",
+   "pin": "SHEL",
+   "x": -4.321,
+   "y": -21.92,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "J1",
+   "pin": "DN2",
+   "x": -0.749,
+   "y": -21.346,
+   "intended": "USB_DM_CONN",
+   "island": 743,
+   "through": false,
+   "asbuilt": "USB_DM_CONN"
+  },
+  {
+   "ref": "J1",
+   "pin": "CC1",
+   "x": -1.25,
+   "y": -21.346,
+   "intended": "USB_CC1",
+   "island": 492,
+   "through": false,
+   "asbuilt": "USB_CC1"
+  },
+  {
+   "ref": "J1",
+   "pin": "DP1",
+   "x": -0.249,
+   "y": -21.346,
+   "intended": "USB_DP_CONN",
+   "island": 1382,
+   "through": false,
+   "asbuilt": "USB_DP_CONN"
+  },
+  {
+   "ref": "J1",
+   "pin": "SHEL",
+   "x": 4.321,
+   "y": -21.92,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "J1",
+   "pin": "SHEL",
+   "x": -4.321,
+   "y": -26.101,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "J1",
+   "pin": "DP2",
+   "x": 0.749,
+   "y": -21.346,
+   "intended": "USB_DP_CONN",
+   "island": 1382,
+   "through": false,
+   "asbuilt": "USB_DP_CONN"
+  },
+  {
+   "ref": "J1",
+   "pin": "CC2",
+   "x": 1.75,
+   "y": -21.346,
+   "intended": "USB_CC2",
+   "island": 678,
+   "through": false,
+   "asbuilt": "USB_CC2"
+  },
+  {
+   "ref": "J1",
+   "pin": "VBUS",
+   "x": -2.4,
+   "y": -21.346,
+   "intended": "USB_VBUS_RAW",
+   "island": 1294,
+   "through": false,
+   "asbuilt": "USB_VBUS_RAW"
+  },
+  {
+   "ref": "J1",
+   "pin": "SBU1",
+   "x": 1.25,
+   "y": -21.346,
+   "intended": "N/C",
+   "island": 32,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "J1",
+   "pin": "VBUS",
+   "x": 2.4,
+   "y": -21.346,
+   "intended": "USB_VBUS_RAW",
+   "island": 1294,
+   "through": false,
+   "asbuilt": "USB_VBUS_RAW"
+  },
+  {
+   "ref": "J1",
+   "pin": "SBU2",
+   "x": -1.75,
+   "y": -21.346,
+   "intended": "N/C",
+   "island": 34,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "J1",
+   "pin": "SHEL",
+   "x": 4.321,
+   "y": -26.101,
+   "intended": "GND",
+   "island": 1248,
+   "through": true,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "C12",
+   "pin": "P1",
+   "x": -2.474,
+   "y": 8.999,
+   "intended": "XOSC_XI",
+   "island": 502,
+   "through": false,
+   "asbuilt": "XOSC_XI"
+  },
+  {
+   "ref": "C12",
+   "pin": "P2",
+   "x": -0.925,
+   "y": 8.999,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "MK1",
+   "pin": "CLOC",
+   "x": -18.164,
+   "y": -9.749,
+   "intended": "PDM_CLK",
+   "island": 1328,
+   "through": false,
+   "asbuilt": "PDM_CLK"
+  },
+  {
+   "ref": "MK1",
+   "pin": "DATA",
+   "x": -19.837,
+   "y": -8.926,
+   "intended": "PDM_DATA",
+   "island": 1330,
+   "through": false,
+   "asbuilt": "PDM_DATA"
+  },
+  {
+   "ref": "MK1",
+   "pin": "VDD",
+   "x": -18.164,
+   "y": -8.926,
+   "intended": "MIC_3V3_FILT",
+   "island": 339,
+   "through": false,
+   "asbuilt": "MIC_3V3_FILT"
+  },
+  {
+   "ref": "MK1",
+   "pin": "GND",
+   "x": -18.344,
+   "y": -10.988,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "MK1",
+   "pin": "SELE",
+   "x": -19.837,
+   "y": -9.749,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "R6",
+   "pin": "P2",
+   "x": -11.176,
+   "y": -4.001,
+   "intended": "QSPI_CS_FLASH",
+   "island": 1301,
+   "through": false,
+   "asbuilt": "QSPI_CS_FLASH"
+  },
+  {
+   "ref": "R6",
+   "pin": "P1",
+   "x": -12.824,
+   "y": -4.001,
+   "intended": "QSPI_SS_MCU",
+   "island": 390,
+   "through": false,
+   "asbuilt": "QSPI_SS_MCU"
+  },
+  {
+   "ref": "C5",
+   "pin": "P1",
+   "x": -0.5,
+   "y": -0.775,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C5",
+   "pin": "P2",
+   "x": -0.5,
+   "y": 0.775,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "C11",
+   "pin": "P1",
+   "x": -6.449,
+   "y": 6.5,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": false,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "C11",
+   "pin": "P2",
+   "x": -6.449,
+   "y": 7.399,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "C15",
+   "pin": "P1",
+   "x": -4.176,
+   "y": -3.2,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C15",
+   "pin": "P2",
+   "x": -2.624,
+   "y": -3.2,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "C3",
+   "pin": "P1",
+   "x": -5.151,
+   "y": -16.8,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C3",
+   "pin": "P2",
+   "x": -3.251,
+   "y": -16.8,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "D2",
+   "pin": "2",
+   "x": 16.5,
+   "y": -17.45,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "D2",
+   "pin": "1",
+   "x": 16.5,
+   "y": -20.551,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "R5",
+   "pin": "P2",
+   "x": -8.974,
+   "y": 7.201,
+   "intended": "XOSC_XO",
+   "island": 308,
+   "through": false,
+   "asbuilt": "XOSC_XO"
+  },
+  {
+   "ref": "R5",
+   "pin": "P1",
+   "x": -10.625,
+   "y": 7.201,
+   "intended": "XOSC_OUT",
+   "island": 1296,
+   "through": false,
+   "asbuilt": "XOSC_OUT"
+  },
+  {
+   "ref": "R3",
+   "pin": "P2",
+   "x": -0.175,
+   "y": -15.499,
+   "intended": "USB_DP",
+   "island": 1326,
+   "through": false,
+   "asbuilt": "USB_DP"
+  },
+  {
+   "ref": "R3",
+   "pin": "P1",
+   "x": -1.826,
+   "y": -15.499,
+   "intended": "B_DP_PROTECTED",
+   "island": 808,
+   "through": false,
+   "asbuilt": "B_DP_PROTECTED"
+  },
+  {
+   "ref": "C9",
+   "pin": "P1",
+   "x": -4.176,
+   "y": -5.001,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C9",
+   "pin": "P2",
+   "x": -2.624,
+   "y": -5.001,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "C4",
+   "pin": "P1",
+   "x": -0.5,
+   "y": 2.225,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C4",
+   "pin": "P2",
+   "x": -0.5,
+   "y": 3.774,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "Y1",
+   "pin": "CRYS",
+   "x": -4.849,
+   "y": 10.076,
+   "intended": "XOSC_XI",
+   "island": 502,
+   "through": false,
+   "asbuilt": "XOSC_XI"
+  },
+  {
+   "ref": "Y1",
+   "pin": "GND_",
+   "x": -7.15,
+   "y": 10.076,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "Y1",
+   "pin": "CRYS",
+   "x": -7.15,
+   "y": 8.326,
+   "intended": "XOSC_XO",
+   "island": 308,
+   "through": false,
+   "asbuilt": "XOSC_XO"
+  },
+  {
+   "ref": "Y1",
+   "pin": "GND_",
+   "x": -4.849,
+   "y": 8.326,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "R15",
+   "pin": "P2",
+   "x": 2.324,
+   "y": 9.299,
+   "intended": "F14_BTN_N",
+   "island": 1287,
+   "through": false,
+   "asbuilt": "F14_BTN_N"
+  },
+  {
+   "ref": "R15",
+   "pin": "P1",
+   "x": 0.676,
+   "y": 9.299,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C25",
+   "pin": "P1",
+   "x": 6.226,
+   "y": -4.501,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "C25",
+   "pin": "P2",
+   "x": 7.775,
+   "y": -4.501,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "R9",
+   "pin": "P2",
+   "x": -0.175,
+   "y": -11.801,
+   "intended": "3V3_PWRGD",
+   "island": 1333,
+   "through": false,
+   "asbuilt": "3V3_PWRGD"
+  },
+  {
+   "ref": "R9",
+   "pin": "P1",
+   "x": -1.826,
+   "y": -11.801,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C20",
+   "pin": "P1",
+   "x": -8.476,
+   "y": 14.801,
+   "intended": "MCU_RUN",
+   "island": 733,
+   "through": false,
+   "asbuilt": "MCU_RUN"
+  },
+  {
+   "ref": "C20",
+   "pin": "P2",
+   "x": -6.924,
+   "y": 14.801,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "SW1",
+   "pin": "1",
+   "x": 18.616,
+   "y": 18.308,
+   "intended": "F13_BTN_N",
+   "island": 1270,
+   "through": false,
+   "asbuilt": "F13_BTN_N"
+  },
+  {
+   "ref": "SW1",
+   "pin": "2",
+   "x": 16.088,
+   "y": 20.584,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "C13",
+   "pin": "P1",
+   "x": -9.774,
+   "y": -3.2,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C13",
+   "pin": "P2",
+   "x": -8.225,
+   "y": -3.2,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U2",
+   "pin": "CLK",
+   "x": -16.51,
+   "y": -1.25,
+   "intended": "QSPI_SCLK",
+   "island": 1277,
+   "through": false,
+   "asbuilt": "QSPI_SCLK"
+  },
+  {
+   "ref": "U2",
+   "pin": "VCC",
+   "x": -16.51,
+   "y": -2.25,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U2",
+   "pin": "DI(I",
+   "x": -16.51,
+   "y": -0.749,
+   "intended": "QSPI_SD0",
+   "island": 1314,
+   "through": false,
+   "asbuilt": "QSPI_SD0"
+  },
+  {
+   "ref": "U2",
+   "pin": "HOLD",
+   "x": -16.51,
+   "y": -1.75,
+   "intended": "QSPI_SD3",
+   "island": 1300,
+   "through": false,
+   "asbuilt": "QSPI_SD3"
+  },
+  {
+   "ref": "U2",
+   "pin": "DO(I",
+   "x": -13.49,
+   "y": -1.75,
+   "intended": "QSPI_SD1",
+   "island": 441,
+   "through": false,
+   "asbuilt": "QSPI_SD1"
+  },
+  {
+   "ref": "U2",
+   "pin": "WP#(",
+   "x": -13.49,
+   "y": -1.25,
+   "intended": "QSPI_SD2",
+   "island": 1290,
+   "through": false,
+   "asbuilt": "QSPI_SD2"
+  },
+  {
+   "ref": "U2",
+   "pin": "EP",
+   "x": -15.001,
+   "y": -1.501,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U2",
+   "pin": "GND",
+   "x": -13.49,
+   "y": -0.749,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U2",
+   "pin": "~{CS",
+   "x": -13.49,
+   "y": -2.25,
+   "intended": "QSPI_CS_FLASH",
+   "island": 1301,
+   "through": false,
+   "asbuilt": "QSPI_CS_FLASH"
+  },
+  {
+   "ref": "U1",
+   "pin": "USB_",
+   "x": -6.599,
+   "y": -1.438,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 4.201,
+   "intended": "N/C",
+   "island": 87,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "USB_",
+   "x": -7.0,
+   "y": -1.438,
+   "intended": "USB_DP",
+   "island": 1326,
+   "through": false,
+   "asbuilt": "USB_DP"
+  },
+  {
+   "ref": "U1",
+   "pin": "XOUT",
+   "x": -5.799,
+   "y": 5.438,
+   "intended": "XOSC_OUT",
+   "island": 1296,
+   "through": false,
+   "asbuilt": "XOSC_OUT"
+  },
+  {
+   "ref": "U1",
+   "pin": "QSPI",
+   "x": -4.6,
+   "y": -1.438,
+   "intended": "QSPI_SD0",
+   "island": 1314,
+   "through": false,
+   "asbuilt": "QSPI_SD0"
+  },
+  {
+   "ref": "U1",
+   "pin": "TEST",
+   "x": -4.999,
+   "y": 5.438,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 2.601,
+   "intended": "N/C",
+   "island": 92,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "IOVD",
+   "x": -2.563,
+   "y": 3.0,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U1",
+   "pin": "SWD",
+   "x": -7.399,
+   "y": 5.438,
+   "intended": "SWDIO",
+   "island": 1312,
+   "through": false,
+   "asbuilt": "SWDIO"
+  },
+  {
+   "ref": "U1",
+   "pin": "QSPI",
+   "x": -3.8,
+   "y": -1.438,
+   "intended": "QSPI_SD1",
+   "island": 441,
+   "through": false,
+   "asbuilt": "QSPI_SD1"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 0.599,
+   "intended": "I2S_BCLK",
+   "island": 691,
+   "through": false,
+   "asbuilt": "I2S_BCLK"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 1.801,
+   "intended": "N/C",
+   "island": 97,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "SWCL",
+   "x": -7.0,
+   "y": 5.438,
+   "intended": "SWCLK",
+   "island": 1298,
+   "through": false,
+   "asbuilt": "SWCLK"
+  },
+  {
+   "ref": "U1",
+   "pin": "DVDD",
+   "x": -6.599,
+   "y": 5.438,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": false,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -8.199,
+   "y": 5.438,
+   "intended": "N/C",
+   "island": 100,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 3.8,
+   "intended": "3V3_PWRGD",
+   "island": 1333,
+   "through": false,
+   "asbuilt": "3V3_PWRGD"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 4.6,
+   "intended": "N/C",
+   "island": 102,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "ADC_",
+   "x": -8.6,
+   "y": -1.438,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U1",
+   "pin": "QSPI",
+   "x": -3.401,
+   "y": -1.438,
+   "intended": "QSPI_SS_MCU",
+   "island": 390,
+   "through": false,
+   "asbuilt": "QSPI_SS_MCU"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -8.6,
+   "y": 5.438,
+   "intended": "N/C",
+   "island": 105,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": -0.201,
+   "intended": "N/C",
+   "island": 106,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "IOVD",
+   "x": -9.439,
+   "y": -0.599,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U1",
+   "pin": "XIN",
+   "x": -5.4,
+   "y": 5.438,
+   "intended": "XOSC_XI",
+   "island": 502,
+   "through": false,
+   "asbuilt": "XOSC_XI"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 1.4,
+   "intended": "I2S_DAC_DATA",
+   "island": 1274,
+   "through": false,
+   "asbuilt": "I2S_DAC_DATA"
+  },
+  {
+   "ref": "U1",
+   "pin": "QSPI",
+   "x": -5.001,
+   "y": -1.438,
+   "intended": "QSPI_SCLK",
+   "island": 1277,
+   "through": false,
+   "asbuilt": "QSPI_SCLK"
+  },
+  {
+   "ref": "U1",
+   "pin": "USB_",
+   "x": -7.399,
+   "y": -1.438,
+   "intended": "USB_DM",
+   "island": 1286,
+   "through": false,
+   "asbuilt": "USB_DM"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 2.2,
+   "intended": "PDM_CLK",
+   "island": 1328,
+   "through": false,
+   "asbuilt": "PDM_CLK"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 0.201,
+   "intended": "N/C",
+   "island": 113,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "IOVD",
+   "x": -6.2,
+   "y": -1.438,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 3.401,
+   "intended": "AMP_SD_MODE",
+   "island": 1291,
+   "through": false,
+   "asbuilt": "AMP_SD_MODE"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 0.599,
+   "intended": "N/C",
+   "island": 116,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 0.201,
+   "intended": "N/C",
+   "island": 117,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "QSPI",
+   "x": -5.4,
+   "y": -1.438,
+   "intended": "QSPI_SD3",
+   "island": 1300,
+   "through": false,
+   "asbuilt": "QSPI_SD3"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 4.6,
+   "intended": "N/C",
+   "island": 119,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 1.4,
+   "intended": "N/C",
+   "island": 120,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": -0.201,
+   "intended": "N/C",
+   "island": 121,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 3.401,
+   "intended": "F14_BTN_N",
+   "island": 1287,
+   "through": false,
+   "asbuilt": "F14_BTN_N"
+  },
+  {
+   "ref": "U1",
+   "pin": "VREG",
+   "x": -7.8,
+   "y": -1.438,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": false,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "U1",
+   "pin": "GND",
+   "x": -5.999,
+   "y": 1.999,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 3.8,
+   "intended": "N/C",
+   "island": 125,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 1.001,
+   "intended": "I2S_LRCLK",
+   "island": 1371,
+   "through": false,
+   "asbuilt": "I2S_LRCLK"
+  },
+  {
+   "ref": "U1",
+   "pin": "RUN",
+   "x": -7.8,
+   "y": 5.438,
+   "intended": "MCU_RUN",
+   "island": 733,
+   "through": false,
+   "asbuilt": "MCU_RUN"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -4.6,
+   "y": 5.438,
+   "intended": "N/C",
+   "island": 128,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -3.401,
+   "y": 5.438,
+   "intended": "N/C",
+   "island": 129,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 2.601,
+   "intended": "F13_BTN_N",
+   "island": 1270,
+   "through": false,
+   "asbuilt": "F13_BTN_N"
+  },
+  {
+   "ref": "U1",
+   "pin": "QSPI",
+   "x": -4.201,
+   "y": -1.438,
+   "intended": "QSPI_SD2",
+   "island": 1290,
+   "through": false,
+   "asbuilt": "QSPI_SD2"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 2.2,
+   "intended": "N/C",
+   "island": 132,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "DVDD",
+   "x": -5.799,
+   "y": -1.438,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": false,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 1.801,
+   "intended": "PDM_DATA",
+   "island": 1330,
+   "through": false,
+   "asbuilt": "PDM_DATA"
+  },
+  {
+   "ref": "U1",
+   "pin": "IOVD",
+   "x": -9.439,
+   "y": 3.0,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U1",
+   "pin": "IOVD",
+   "x": -2.563,
+   "y": -0.599,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U1",
+   "pin": "IOVD",
+   "x": -6.2,
+   "y": 5.438,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U1",
+   "pin": "VREG",
+   "x": -8.199,
+   "y": -1.438,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -4.201,
+   "y": 5.438,
+   "intended": "N/C",
+   "island": 139,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -9.439,
+   "y": 1.001,
+   "intended": "N/C",
+   "island": 140,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -3.8,
+   "y": 5.438,
+   "intended": "N/C",
+   "island": 141,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U1",
+   "pin": "GPIO",
+   "x": -2.563,
+   "y": 4.201,
+   "intended": "N/C",
+   "island": 142,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "C16",
+   "pin": "P1",
+   "x": -9.774,
+   "y": -5.001,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C16",
+   "pin": "P2",
+   "x": -8.225,
+   "y": -5.001,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "R4",
+   "pin": "P2",
+   "x": -0.175,
+   "y": -13.8,
+   "intended": "USB_DM",
+   "island": 1286,
+   "through": false,
+   "asbuilt": "USB_DM"
+  },
+  {
+   "ref": "R4",
+   "pin": "P1",
+   "x": -1.826,
+   "y": -13.8,
+   "intended": "B_DM_PROTECTED",
+   "island": 482,
+   "through": false,
+   "asbuilt": "B_DM_PROTECTED"
+  },
+  {
+   "ref": "C6",
+   "pin": "P1",
+   "x": -3.071,
+   "y": 6.901,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C6",
+   "pin": "P2",
+   "x": -1.529,
+   "y": 6.901,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "C10",
+   "pin": "P1",
+   "x": -6.975,
+   "y": -5.001,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": false,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "C10",
+   "pin": "P2",
+   "x": -5.425,
+   "y": -5.001,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "R1",
+   "pin": "P2",
+   "x": -4.176,
+   "y": -18.499,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "R1",
+   "pin": "P1",
+   "x": -5.824,
+   "y": -18.499,
+   "intended": "USB_CC1",
+   "island": 492,
+   "through": false,
+   "asbuilt": "USB_CC1"
+  },
+  {
+   "ref": "R2",
+   "pin": "P2",
+   "x": -9.675,
+   "y": -18.999,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "R2",
+   "pin": "P1",
+   "x": -11.326,
+   "y": -18.999,
+   "intended": "USB_CC2",
+   "island": 678,
+   "through": false,
+   "asbuilt": "USB_CC2"
+  },
+  {
+   "ref": "C14",
+   "pin": "P1",
+   "x": -6.975,
+   "y": -3.2,
+   "intended": "1V1_CORE",
+   "island": 1282,
+   "through": false,
+   "asbuilt": "1V1_CORE"
+  },
+  {
+   "ref": "C14",
+   "pin": "P2",
+   "x": -5.425,
+   "y": -3.2,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "D1",
+   "pin": "I/O2",
+   "x": -1.6,
+   "y": -19.449,
+   "intended": "USB_DM_CONN",
+   "island": 743,
+   "through": false,
+   "asbuilt": "USB_DM_CONN"
+  },
+  {
+   "ref": "D1",
+   "pin": "VBUS",
+   "x": 0.599,
+   "y": -18.499,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "D1",
+   "pin": "GND",
+   "x": -1.6,
+   "y": -18.499,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "D1",
+   "pin": "I/O1",
+   "x": 0.599,
+   "y": -17.549,
+   "intended": "B_DP_PROTECTED",
+   "island": 808,
+   "through": false,
+   "asbuilt": "B_DP_PROTECTED"
+  },
+  {
+   "ref": "D1",
+   "pin": "I/O1",
+   "x": -1.6,
+   "y": -17.549,
+   "intended": "USB_DP_CONN",
+   "island": 1382,
+   "through": false,
+   "asbuilt": "USB_DP_CONN"
+  },
+  {
+   "ref": "D1",
+   "pin": "I/O2",
+   "x": 0.599,
+   "y": -19.449,
+   "intended": "B_DM_PROTECTED",
+   "island": 482,
+   "through": false,
+   "asbuilt": "B_DM_PROTECTED"
+  },
+  {
+   "ref": "SW2",
+   "pin": "1",
+   "x": 25.448,
+   "y": 8.136,
+   "intended": "F14_BTN_N",
+   "island": 1287,
+   "through": false,
+   "asbuilt": "F14_BTN_N"
+  },
+  {
+   "ref": "SW2",
+   "pin": "2",
+   "x": 24.232,
+   "y": 11.311,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "R14",
+   "pin": "P2",
+   "x": 2.324,
+   "y": 7.8,
+   "intended": "F13_BTN_N",
+   "island": 1270,
+   "through": false,
+   "asbuilt": "F13_BTN_N"
+  },
+  {
+   "ref": "R14",
+   "pin": "P1",
+   "x": 0.676,
+   "y": 7.8,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C18",
+   "pin": "P1",
+   "x": -10.975,
+   "y": 9.401,
+   "intended": "XOSC_XO",
+   "island": 308,
+   "through": false,
+   "asbuilt": "XOSC_XO"
+  },
+  {
+   "ref": "C18",
+   "pin": "P2",
+   "x": -9.426,
+   "y": 9.401,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U5",
+   "pin": "VOUT",
+   "x": -4.729,
+   "y": -14.501,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "U5",
+   "pin": "GND",
+   "x": -5.999,
+   "y": -14.501,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U5",
+   "pin": "~SHD",
+   "x": -8.539,
+   "y": -14.501,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "U5",
+   "pin": "PWRG",
+   "x": -3.459,
+   "y": -14.501,
+   "intended": "3V3_PWRGD",
+   "island": 1333,
+   "through": false,
+   "asbuilt": "3V3_PWRGD"
+  },
+  {
+   "ref": "U5",
+   "pin": "VIN",
+   "x": -7.269,
+   "y": -14.501,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "U5",
+   "pin": "GND_",
+   "x": -5.999,
+   "y": -8.499,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U3",
+   "pin": "N.C.",
+   "x": 10.249,
+   "y": -3.449,
+   "intended": "N/C",
+   "island": 173,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U3",
+   "pin": "N.C.",
+   "x": 10.749,
+   "y": -3.449,
+   "intended": "N/C",
+   "island": 174,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U3",
+   "pin": "OUTN",
+   "x": 12.451,
+   "y": -2.25,
+   "intended": "SPKR_N",
+   "island": 1263,
+   "through": false,
+   "asbuilt": "SPKR_N"
+  },
+  {
+   "ref": "U3",
+   "pin": "N.C.",
+   "x": 12.451,
+   "y": -1.25,
+   "intended": "N/C",
+   "island": 176,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U3",
+   "pin": "THER",
+   "x": 11.001,
+   "y": -1.999,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U3",
+   "pin": "DIN",
+   "x": 9.55,
+   "y": -1.25,
+   "intended": "I2S_DAC_DATA",
+   "island": 1274,
+   "through": false,
+   "asbuilt": "I2S_DAC_DATA"
+  },
+  {
+   "ref": "U3",
+   "pin": "GND_",
+   "x": 10.749,
+   "y": -0.551,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U3",
+   "pin": "GAIN",
+   "x": 9.55,
+   "y": -1.75,
+   "intended": "N/C",
+   "island": 180,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "U3",
+   "pin": "VDD_",
+   "x": 11.25,
+   "y": -3.449,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "U3",
+   "pin": "OUTP",
+   "x": 12.451,
+   "y": -2.751,
+   "intended": "SPKR_P",
+   "island": 1264,
+   "through": false,
+   "asbuilt": "SPKR_P"
+  },
+  {
+   "ref": "U3",
+   "pin": "GND_",
+   "x": 12.451,
+   "y": -1.75,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U3",
+   "pin": "LRCL",
+   "x": 11.25,
+   "y": -0.551,
+   "intended": "I2S_LRCLK",
+   "island": 1371,
+   "through": false,
+   "asbuilt": "I2S_LRCLK"
+  },
+  {
+   "ref": "U3",
+   "pin": "VDD_",
+   "x": 11.75,
+   "y": -3.449,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "U3",
+   "pin": "GND_",
+   "x": 9.55,
+   "y": -2.25,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "U3",
+   "pin": "BCLK",
+   "x": 10.249,
+   "y": -0.551,
+   "intended": "I2S_BCLK",
+   "island": 691,
+   "through": false,
+   "asbuilt": "I2S_BCLK"
+  },
+  {
+   "ref": "U3",
+   "pin": "~SD_",
+   "x": 9.55,
+   "y": -2.751,
+   "intended": "AMP_SD_MODE",
+   "island": 1291,
+   "through": false,
+   "asbuilt": "AMP_SD_MODE"
+  },
+  {
+   "ref": "U3",
+   "pin": "N.C.",
+   "x": 11.75,
+   "y": -0.551,
+   "intended": "N/C",
+   "island": 189,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "C28",
+   "pin": "P1",
+   "x": -18.776,
+   "y": -7.399,
+   "intended": "MIC_3V3_FILT",
+   "island": 339,
+   "through": false,
+   "asbuilt": "MIC_3V3_FILT"
+  },
+  {
+   "ref": "C28",
+   "pin": "P2",
+   "x": -17.224,
+   "y": -7.399,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "R8",
+   "pin": "P2",
+   "x": -9.675,
+   "y": 14.801,
+   "intended": "MCU_RUN",
+   "island": 733,
+   "through": false,
+   "asbuilt": "MCU_RUN"
+  },
+  {
+   "ref": "R8",
+   "pin": "P1",
+   "x": -11.326,
+   "y": 14.801,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C7",
+   "pin": "P1",
+   "x": -11.501,
+   "y": 2.225,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C7",
+   "pin": "P2",
+   "x": -11.501,
+   "y": 3.774,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "C29",
+   "pin": "P1",
+   "x": -15.776,
+   "y": -7.399,
+   "intended": "MIC_3V3_FILT",
+   "island": 339,
+   "through": false,
+   "asbuilt": "MIC_3V3_FILT"
+  },
+  {
+   "ref": "C29",
+   "pin": "P2",
+   "x": -14.224,
+   "y": -7.399,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "J4",
+   "pin": "01",
+   "x": -18.966,
+   "y": 8.73,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "J4",
+   "pin": "06",
+   "x": -23.035,
+   "y": 11.27,
+   "intended": "N/C",
+   "island": 199,
+   "through": false,
+   "asbuilt": "N/C"
+  },
+  {
+   "ref": "J4",
+   "pin": "04",
+   "x": -23.035,
+   "y": 10.0,
+   "intended": "SWCLK",
+   "island": 1298,
+   "through": false,
+   "asbuilt": "SWCLK"
+  },
+  {
+   "ref": "J4",
+   "pin": "03",
+   "x": -18.966,
+   "y": 10.0,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  },
+  {
+   "ref": "J4",
+   "pin": "02",
+   "x": -23.035,
+   "y": 8.73,
+   "intended": "SWDIO",
+   "island": 1312,
+   "through": false,
+   "asbuilt": "SWDIO"
+  },
+  {
+   "ref": "J4",
+   "pin": "05",
+   "x": -18.966,
+   "y": 11.27,
+   "intended": "MCU_RUN",
+   "island": 733,
+   "through": false,
+   "asbuilt": "MCU_RUN"
+  },
+  {
+   "ref": "R7",
+   "pin": "P2",
+   "x": -14.176,
+   "y": -3.5,
+   "intended": "QSPI_CS_FLASH",
+   "island": 1301,
+   "through": false,
+   "asbuilt": "QSPI_CS_FLASH"
+  },
+  {
+   "ref": "R7",
+   "pin": "P1",
+   "x": -15.824,
+   "y": -3.5,
+   "intended": "3V3",
+   "island": 1308,
+   "through": false,
+   "asbuilt": "3V3"
+  },
+  {
+   "ref": "C24",
+   "pin": "P1",
+   "x": 11.529,
+   "y": -4.6,
+   "intended": "VBUS_5V",
+   "island": 1323,
+   "through": false,
+   "asbuilt": "VBUS_5V"
+  },
+  {
+   "ref": "C24",
+   "pin": "P2",
+   "x": 13.071,
+   "y": -4.6,
+   "intended": "GND",
+   "island": 1248,
+   "through": false,
+   "asbuilt": "GND"
+  }
+ ],
+ "nets": {
+  "F13_BTN_N": [
+   "VIA@(0.732,3.216)",
+   "VIA@(17.47,17.163)",
+   "VIA@(2.324,6.576)",
+   "VIA@(3.475,7.8)",
+   "SW1:1",
+   "U1:GPIO",
+   "R14:P2"
+  ],
+  "I2S_DAC_DATA": [
+   "VIA@(-1.704,1.669)",
+   "VIA@(7.175,-1.494)",
+   "U1:GPIO",
+   "U3:DIN"
+  ],
+  "I2S_LRCLK": [
+   "VIA@(-1.59,0.884)",
+   "VIA@(10.224,0.277)",
+   "U1:GPIO",
+   "U3:LRCL"
+  ],
+  "QSPI_SCLK": [
+   "VIA@(-8.418,0.978)",
+   "VIA@(-15.916,-0.325)",
+   "U2:CLK",
+   "U1:QSPI"
+  ],
+  "1V1_CORE": [
+   "VIA@(-6.03,-5.946)",
+   "VIA@(-6.599,4.288)",
+   "VIA@(-7.8,-2.286)",
+   "VIA@(-1.252,-4.526)",
+   "VIA@(-5.799,-0.589)",
+   "C11:P1",
+   "U1:DVDD",
+   "U1:VREG",
+   "U1:DVDD",
+   "C10:P1",
+   "C14:P1"
+  ],
+  "USB_DM": [
+   "VIA@(-8.125,-0.465)",
+   "VIA@(0.432,-1.036)",
+   "VIA@(0.622,-13.363)",
+   "U1:USB_",
+   "R4:P2"
+  ],
+  "F14_BTN_N": [
+   "VIA@(1.4,7.137)",
+   "VIA@(-3.538,3.947)",
+   "R15:P2",
+   "U1:GPIO",
+   "SW2:1"
+  ],
+  "QSPI_SD2": [
+   "VIA@(-12.586,-1.25)",
+   "VIA@(-4.412,-2.256)",
+   "U2:WP#(",
+   "U1:QSPI"
+  ],
+  "AMP_SD_MODE": [
+   "VIA@(8.334,-2.751)",
+   "VIA@(-8.504,3.876)",
+   "U1:GPIO",
+   "U3:~SD_"
+  ],
+  "USB_VBUS_RAW": [
+   "VIA@(-2.53,-19.69)",
+   "VIA@(1.755,-23.97)",
+   "F1:~",
+   "J1:VBUS",
+   "J1:VBUS"
+  ],
+  "XOSC_OUT": [
+   "VIA@(-10.051,6.157)",
+   "VIA@(-4.846,4.463)",
+   "R5:P1",
+   "U1:XOUT"
+  ],
+  "SWCLK": [
+   "VIA@(-21.092,9.873)",
+   "VIA@(-7.465,7.269)",
+   "U1:SWCL",
+   "J4:04"
+  ],
+  "QSPI_SD3": [
+   "VIA@(-15.598,-1.981)",
+   "VIA@(-5.4,-2.296)",
+   "U2:HOLD",
+   "U1:QSPI"
+  ],
+  "QSPI_CS_FLASH": [
+   "VIA@(-11.201,-3.129)",
+   "VIA@(-13.49,-4.895)",
+   "VIA@(-15.974,3.294)",
+   "SW4:1",
+   "R6:P2",
+   "U2:~{CS",
+   "R7:P2"
+  ],
+  "3V3": [
+   "VIA@(-10.404,13.879)",
+   "VIA@(-0.246,10.221)",
+   "VIA@(-9.164,-5.862)",
+   "VIA@(-6.2,-2.286)",
+   "VIA@(2.41,-0.97)",
+   "VIA@(-2.276,5.913)",
+   "VIA@(-6.967,-5.911)",
+   "VIA@(-1.425,3.66)",
+   "VIA@(-12.789,-8.199)",
+   "VIA@(-5.751,7.269)",
+   "C17:P1",
+   "C8:P1",
+   "FB1:1",
+   "C5:P1",
+   "C15:P1",
+   "C3:P1",
+   "C9:P1",
+   "C4:P1",
+   "R15:P1",
+   "R9:P1",
+   "C13:P1",
+   "U2:VCC",
+   "U1:USB_",
+   "U1:IOVD",
+   "U1:ADC_",
+   "U1:IOVD",
+   "U1:IOVD",
+   "U1:IOVD",
+   "U1:IOVD",
+   "U1:IOVD",
+   "U1:VREG",
+   "C16:P1",
+   "C6:P1",
+   "R14:P1",
+   "U5:VOUT",
+   "R8:P1",
+   "C7:P1",
+   "J4:01",
+   "R7:P1"
+  ],
+  "SWDIO": [
+   "VIA@(-20.432,7.943)",
+   "VIA@(-7.861,4.595)",
+   "U1:SWD",
+   "J4:02"
+  ],
+  "QSPI_SD0": [
+   "VIA@(-16.154,1.618)",
+   "VIA@(-4.328,-0.099)",
+   "U2:DI(I",
+   "U1:QSPI"
+  ],
+  "USB_DP_CONN": [
+   "VIA@(-1.6,-16.8)",
+   "VIA@(3.2,-19.949)",
+   "J1:DP1",
+   "J1:DP2",
+   "D1:I/O1"
+  ],
+  "GND": [
+   "VIA@(-17.066,10.0)",
+   "VIA@(-3.264,-7.866)",
+   "VIA@(-7.3,1.651)",
+   "VIA@(-4.9,1.699)",
+   "VIA@(-5.999,2.601)",
+   "VIA@(-5.999,0.701)",
+   "VIA@(-5.799,-4.1)",
+   "VIA@(-8.499,-6.401)",
+   "VIA@(0.0,15.001)",
+   "VIA@(15.001,0.0)",
+   "VIA@(15.001,-15.001)",
+   "VIA@(-15.001,-15.001)",
+   "VIA@(4.47,-10.856)",
+   "VIA@(6.297,-24.285)",
+   "VIA@(8.148,-6.957)",
+   "VIA@(-21.41,-8.664)",
+   "VIA@(-14.0,8.722)",
+   "VIA@(-9.606,11.113)",
+   "VIA@(-17.884,-5.705)",
+   "VIA@(-4.663,-19.901)",
+   "VIA@(-0.178,-6.652)",
+   "VIA@(-15.057,5.961)",
+   "VIA@(2.342,-7.137)",
+   "VIA@(-17.691,2.677)",
+   "VIA@(5.364,8.562)",
+   "VIA@(1.781,-15.636)",
+   "VIA@(-4.046,-11.064)",
+   "VIA@(-1.527,-9.693)",
+   "VIA@(-14.371,-0.051)",
+   "VIA@(-15.359,3.904)",
+   "VIA@(8.893,-0.437)",
+   "VIA@(0.467,5.776)",
+   "VIA@(-0.605,-23.226)",
+   "VIA@(-12.601,0.089)",
+   "VIA@(-12.733,1.793)",
+   "VIA@(-17.186,0.376)",
+   "VIA@(-19.075,-3.185)",
+   "VIA@(0.668,-2.918)",
+   "VIA@(-15.375,1.184)",
+   "VIA@(-2.634,-12.797)",
+   "VIA@(1.374,-1.001)",
+   "VIA@(-11.158,8.303)",
+   "C17:P2",
+   "SW4:2",
+   "C1:P2",
+   "SW3:2",
+   "C8:P2",
+   "C2:P2",
+   "J1:GND_",
+   "J1:GND",
+   "J1:SHEL",
+   "J1:SHEL",
+   "J1:SHEL",
+   "J1:SHEL",
+   "C12:P2",
+   "MK1:GND",
+   "MK1:SELE",
+   "C5:P2",
+   "C11:P2",
+   "C15:P2",
+   "C3:P2",
+   "D2:2",
+   "C9:P2",
+   "C4:P2",
+   "Y1:GND_",
+   "Y1:GND_",
+   "C25:P2",
+   "C20:P2",
+   "SW1:2",
+   "C13:P2",
+   "U2:EP",
+   "U2:GND",
+   "U1:TEST",
+   "U1:GND",
+   "C16:P2",
+   "C6:P2",
+   "C10:P2",
+   "R1:P2",
+   "R2:P2",
+   "C14:P2",
+   "D1:GND",
+   "SW2:2",
+   "C18:P2",
+   "U5:GND",
+   "U5:GND_",
+   "U3:THER",
+   "U3:GND_",
+   "U3:GND_",
+   "U3:GND_",
+   "C28:P2",
+   "C7:P2",
+   "C29:P2",
+   "J4:03",
+   "C24:P2"
+  ],
+  "3V3_PWRGD": [
+   "VIA@(0.693,-11.755)",
+   "VIA@(-8.418,1.72)",
+   "VIA@(-2.713,-13.754)",
+   "VIA@(-3.459,-13.078)",
+   "VIA@(-1.669,4.79)",
+   "VIA@(1.425,-10.201)",
+   "R9:P2",
+   "U1:GPIO",
+   "U5:PWRG"
+  ],
+  "VBUS_5V": [
+   "VIA@(-7.242,-17.818)",
+   "VIA@(7.313,-12.484)",
+   "VIA@(-0.376,-18.499)",
+   "C1:P1",
+   "F1:~",
+   "C2:P1",
+   "D2:1",
+   "C25:P1",
+   "D1:VBUS",
+   "U5:~SHD",
+   "U5:VIN",
+   "U3:VDD_",
+   "U3:VDD_",
+   "C24:P1"
+  ],
+  "USB_DP": [
+   "VIA@(-6.881,-0.569)",
+   "VIA@(-0.996,-14.679)",
+   "R3:P2",
+   "U1:USB_"
+  ],
+  "SPKR_N": [
+   "VIA@(14.313,-2.25)",
+   "J3:2",
+   "U3:OUTN"
+  ],
+  "PDM_CLK": [
+   "VIA@(-3.396,2.2)",
+   "VIA@(-17.01,-9.749)",
+   "MK1:CLOC",
+   "U1:GPIO"
+  ],
+  "PDM_DATA": [
+   "VIA@(-3.401,1.45)",
+   "VIA@(-19.837,-7.874)",
+   "MK1:DATA",
+   "U1:GPIO"
+  ],
+  "MCU_RUN": [
+   "SW3:1",
+   "C20:P1",
+   "U1:RUN",
+   "R8:P2",
+   "J4:05"
+  ],
+  "SPKR_P": [
+   "J3:1",
+   "U3:OUTP"
+  ],
+  "MIC_3V3_FILT": [
+   "FB1:2",
+   "MK1:VDD",
+   "C28:P1",
+   "C29:P1"
+  ],
+  "USB_DM_CONN": [
+   "J1:DN1",
+   "J1:DN2",
+   "D1:I/O2"
+  ],
+  "USB_CC1": [
+   "J1:CC1",
+   "R1:P1"
+  ],
+  "USB_CC2": [
+   "J1:CC2",
+   "R2:P1"
+  ],
+  "N/C": [
+   "J1:SBU1",
+   "J1:SBU2",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U1:GPIO",
+   "U3:N.C.",
+   "U3:N.C.",
+   "U3:N.C.",
+   "U3:GAIN",
+   "U3:N.C.",
+   "J4:06"
+  ],
+  "XOSC_XI": [
+   "C12:P1",
+   "Y1:CRYS",
+   "U1:XIN"
+  ],
+  "QSPI_SS_MCU": [
+   "R6:P1",
+   "U1:QSPI"
+  ],
+  "XOSC_XO": [
+   "R5:P2",
+   "Y1:CRYS",
+   "C18:P1"
+  ],
+  "B_DP_PROTECTED": [
+   "R3:P1",
+   "D1:I/O1"
+  ],
+  "QSPI_SD1": [
+   "U2:DO(I",
+   "U1:QSPI"
+  ],
+  "I2S_BCLK": [
+   "U1:GPIO",
+   "U3:BCLK"
+  ],
+  "B_DM_PROTECTED": [
+   "R4:P1",
+   "D1:I/O2"
+  ]
+ },
+ "issues": []
+}
