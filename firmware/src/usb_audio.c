@@ -27,6 +27,7 @@
 #include "i2s_out.h"
 #include "pdm_mic.h"
 #include "diag.h"
+#include "handset_status.h"
 
 //--------------------------------------------------------------------+
 // Tunables
@@ -70,6 +71,11 @@ static int16_t mic_volume;
 
 static int32_t spk_gain_q15;
 static int32_t mic_gain_q15;
+
+static uint32_t stat_spk_usb_frames;
+static uint32_t stat_spk_silence_frames;
+static uint32_t stat_spk_underruns;
+static uint32_t stat_mic_samples;
 
 static uint32_t const sample_rate = HANDSET_SAMPLE_RATE;
 
@@ -129,7 +135,7 @@ void usb_audio_speaker_task(void) {
   uint32_t need = SPK_I2S_TARGET_FRAMES - queued;
 
   if (!spk_streaming) {
-    i2s_out_write_silence(need);
+    stat_spk_silence_frames += i2s_out_write_silence(need);
     return;
   }
 
@@ -137,7 +143,7 @@ void usb_audio_speaker_task(void) {
   uint16_t avail = tud_audio_available();
   if (!spk_primed) {
     if (avail < SPK_PRIME_BYTES) {
-      i2s_out_write_silence(need);
+      stat_spk_silence_frames += i2s_out_write_silence(need);
       return;
     }
     spk_primed = true;
@@ -147,7 +153,8 @@ void usb_audio_speaker_task(void) {
   if (have == 0) {
     // Underrun: back to priming so we do not chase the host packet by packet.
     spk_primed = false;
-    i2s_out_write_silence(need);
+    stat_spk_underruns++;
+    stat_spk_silence_frames += i2s_out_write_silence(need);
     return;
   }
 
@@ -172,7 +179,7 @@ void usb_audio_speaker_task(void) {
       buf[i] = s | (s << 16);   // same sample in both slots
     }
     DIAG_CRUMB(23);
-    i2s_out_write(buf, n);
+    stat_spk_usb_frames += i2s_out_write(buf, n);
     need -= n;
     have -= n;
   }
@@ -187,6 +194,7 @@ void usb_audio_mic_task(void) {
   static int16_t buf[96];
   uint32_t n = pdm_mic_read(buf, sizeof(buf) / sizeof(buf[0]), mic_gain_q15);
   if (n == 0) return;
+  stat_mic_samples += n;
   if (!mic_streaming) return;   // decimator keeps running so the filters stay warm
   tud_audio_write(buf, (uint16_t) (n * sizeof(int16_t)));
 }
@@ -386,4 +394,36 @@ bool tud_audio_set_req_entity_cb(uint8_t rhport, tusb_control_request_t const *p
     update_amp();
   }
   return ok;
+}
+
+//--------------------------------------------------------------------+
+// Status for tools/handset-status
+//--------------------------------------------------------------------+
+
+void usb_audio_fill_status(handset_status_t *st) {
+  st->spk_streaming = spk_streaming;
+  st->mic_streaming = mic_streaming;
+  st->spk_mute = (uint8_t) spk_mute;
+  st->mic_mute = (uint8_t) mic_mute;
+  st->spk_volume = spk_volume;
+  st->mic_volume = mic_volume;
+  st->amp_gpio = gpio_get(HANDSET_PIN_AMP_SD);
+  st->power_good = power_good;
+  st->spk_primed = spk_primed;
+  st->usb_out_fifo = tud_audio_available();
+  st->usb_in_fifo = (uint16_t) tu_fifo_count(tud_audio_get_ep_in_ff());
+  st->i2s_queued = (uint16_t) i2s_out_queued();
+  st->spk_usb_frames = stat_spk_usb_frames;
+  st->spk_silence_frames = stat_spk_silence_frames;
+  st->spk_underruns = stat_spk_underruns;
+  st->mic_samples = stat_mic_samples;
+  st->spk_gain_q15 = spk_gain_q15;
+  st->mic_gain_q15 = mic_gain_q15;
+  uint32_t a, b;
+  i2s_out_debug(&a, &b);
+  st->i2s_dma_read_addr = a;
+  st->pio_i2s_pc = b;
+  pdm_mic_debug(&a, &b);
+  st->pdm_dma_write_addr = a;
+  st->pio_pdm_pc = b;
 }

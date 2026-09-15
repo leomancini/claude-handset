@@ -121,3 +121,9 @@ void i2s_out_reset(void) {
   memset(i2s_ring, 0, sizeof(i2s_ring));
   i2s_wr = (i2s_read_index() + 4u) & I2S_RING_MASK;
 }
+
+void i2s_out_debug(uint32_t *dma_read_addr, uint32_t *pio_pc) {
+  int ch = dma_channel_is_busy(i2s_dma_a) ? i2s_dma_a : i2s_dma_b;
+  *dma_read_addr = dma_channel_hw_addr(ch)->read_addr;
+  *pio_pc = pio_sm_get_pc(i2s_pio, i2s_sm);
+}

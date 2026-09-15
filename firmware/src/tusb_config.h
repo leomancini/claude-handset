@@ -74,7 +74,7 @@ extern "C" {
 
 #define CFG_TUD_AUDIO_ENABLE_INTERRUPT_EP               0
 #define CFG_TUD_AUDIO_ENABLE_FEEDBACK_EP                1
-#define CFG_TUD_AUDIO_ENABLE_FEEDBACK_FORMAT_CORRECTION 0   // send 16.16 (works on macOS, Linux and Windows)
+#define CFG_TUD_AUDIO_ENABLE_FEEDBACK_FORMAT_CORRECTION 1   // full speed: send 10.14 in 3 bytes per the USB spec
 #define CFG_TUD_AUDIO_EP_IN_FLOW_CONTROL                1
 
 // Microphone: EP IN

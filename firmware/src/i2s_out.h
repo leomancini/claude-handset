@@ -34,4 +34,7 @@ uint32_t i2s_out_write_silence(uint32_t count);
 // Discard everything queued and start again just ahead of the reader.
 void i2s_out_reset(void);
 
+// Debug: current DMA read address and PIO program counter.
+void i2s_out_debug(uint32_t *dma_read_addr, uint32_t *pio_pc);
+
 #endif

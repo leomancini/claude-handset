@@ -46,6 +46,16 @@ Read the serial with `ioreg -p IOUSB -l -w0 | grep kUSBSerialNumberString`.
 
 The board was designed around F13/F14, but macOS binds F14/F15 to display brightness on keyboards without dedicated keys, so the firmware sends F17 and F18, which have no default binding on macOS, Windows or Linux. Change `HANDSET_KEY_SW1` / `HANDSET_KEY_SW2` in `src/buttons.c` to move them. `tools/keytest.html` is a browser page that lights up when the keys arrive.
 
+## Live status
+
+`tools/handset-status.c` reads a status block (stream state, amp pin, power-good, FIFO levels, frame counters, PIO/DMA positions) from the running board over the reset interface. Needs `brew install libusb`:
+
+```sh
+cc -O -o handset-status tools/handset-status.c -I/opt/homebrew/include -L/opt/homebrew/lib -lusb-1.0
+./handset-status        # once
+./handset-status 1      # every second
+```
+
 ## Tunables
 
 All in `src/usb_audio.c`:
@@ -67,15 +77,18 @@ src/usb_audio.[ch]        UAC2 requests, stream on/off, speaker + mic tasks, amp
 src/i2s_out.[ch] + .pio   I2S TX: PIO + two chained DMA channels on a 4 KB ring
 src/pdm_mic.[ch] + .pio   PDM RX: PIO + DMA ring, CIC/half-band decimator
 src/buttons.[ch]          debounce + HID keyboard reports
-src/usb_reset.c           picotool reset interface (TinyUSB app class driver)
+src/usb_reset.c           picotool reset interface + status request (TinyUSB app class driver)
+src/handset_status.h      status block layout shared with tools/handset-status.c
 src/diag.[ch]             watchdog policy, breadcrumbs, panic/hard-fault capture
 src/tusb_config.h         TinyUSB configuration
 tools/keytest.html        browser key tester
+tools/handset-status.c    libusb tool that dumps the live status block
 ```
 
 ## Notes on things that bit
 
 - **TinyUSB RP2040 ISO endpoints**: `usbd_edpt_close()` is a no-op on this port and re-activating an ISO endpoint does not clear its hardware buffer control. When the host stops a stream while a buffer is armed and later restarts it, the driver panics with "ep was already available". `rp2040_abort_endpoint()` in `usb_audio.c` aborts and clears the endpoints whenever a streaming interface goes to alt 0.
+- **Feedback endpoint format**: on full speed the host expects a 3-byte 10.14 rate value. With TinyUSB's `CFG_TUD_AUDIO_ENABLE_FEEDBACK_FORMAT_CORRECTION` off it sends 4-byte 16.16, which macOS rejects: it delivers ~64 ms of audio, then stops sending packets for good while the interface stays at alt 1. Keep the correction on.
 - **PDM sample point**: sample the data line on the clock edge that ends the mic's driving phase, with the PIO input synchroniser bypassed. Sampling near the other edge lands in the mic's output transition and shows up as noise.
 - **DC blocker**: a first-order integer DC blocker leaves a residual of up to 255 counts unless the leak term keeps fractional bits; it is accumulated in Q8.
 - **macOS makes a new USB audio device the default input and output.** Handy for testing, surprising for system sounds. `SwitchAudioSource` or the Sound settings put it back.

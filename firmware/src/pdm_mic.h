@@ -28,4 +28,7 @@ uint32_t pdm_mic_read(int16_t *out, uint32_t max_samples, int32_t gain_q15);
 // Drop any buffered PDM data (e.g. when the host starts a stream).
 void pdm_mic_flush(void);
 
+// Debug: current DMA write address and PIO program counter.
+void pdm_mic_debug(uint32_t *dma_write_addr, uint32_t *pio_pc);
+
 #endif

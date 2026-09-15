@@ -254,3 +254,9 @@ uint32_t pdm_mic_read(int16_t *out, uint32_t max_samples, int32_t gain_q15) {
 
   return produced;
 }
+
+void pdm_mic_debug(uint32_t *dma_write_addr, uint32_t *pio_pc) {
+  int ch = dma_channel_is_busy(pdm_dma_a) ? pdm_dma_a : pdm_dma_b;
+  *dma_write_addr = dma_channel_hw_addr(ch)->write_addr;
+  *pio_pc = pio_sm_get_pc(pdm_pio, pdm_sm);
+}

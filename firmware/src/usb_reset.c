@@ -8,12 +8,18 @@
  * requests, RESET_REQUEST_BOOTSEL (1) and RESET_REQUEST_FLASH (2).
  */
 
+#include <string.h>
+
 #include "tusb.h"
 #include "device/usbd_pvt.h"
+#include "pico/stdlib.h"
 #include "pico/bootrom.h"
 #include "hardware/watchdog.h"
 
 #include "usb_descriptors.h"
+#include "handset_status.h"
+#include "usb_audio.h"
+#include "hardware/structs/watchdog.h"
 
 #define RESET_INTERFACE_SUBCLASS  0x00
 #define RESET_INTERFACE_PROTOCOL  0x01
@@ -21,6 +27,7 @@
 #define RESET_REQUEST_FLASH       0x02
 
 static uint8_t reset_itf_num = 0xFF;
+static handset_status_t status_buf;
 
 static void reset_driver_init(void) {}
 
@@ -55,6 +62,14 @@ static bool reset_driver_control_xfer_cb(uint8_t rhport, uint8_t stage, tusb_con
   if (request->bRequest == RESET_REQUEST_FLASH) {
     watchdog_reboot(0, 0, 100);
     return true;
+  }
+  if (request->bRequest == HANDSET_REQUEST_STATUS && request->bmRequestType_bit.direction == TUSB_DIR_IN) {
+    memset(&status_buf, 0, sizeof(status_buf));
+    status_buf.magic = HANDSET_STATUS_MAGIC;
+    status_buf.uptime_ms = to_ms_since_boot(get_absolute_time());
+    status_buf.loops = watchdog_hw->scratch[1];
+    usb_audio_fill_status(&status_buf);
+    return tud_control_xfer(rhport, request, &status_buf, sizeof(status_buf));
   }
   return false;
 }
