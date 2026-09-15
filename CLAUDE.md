@@ -8,7 +8,8 @@ not from the schematic, unless it says otherwise.
 
 A 60 mm round, 1.6 mm, 4-layer PCB that plugs into a computer over USB-C and acts as a
 **USB composite device: audio (speaker out + microphone in) plus a boot-compatible HID keyboard**
-with two side buttons that send **F13** and **F14**. Designed in Flux.ai by Leo Mancini
+with two side buttons (labelled F13/F14 on the board; the firmware sends **F17**/**F18**, see
+`firmware/README.md`). Designed in Flux.ai by Leo Mancini
 (https://www.flux.ai/leomancini/claude-handset~2m, version #3cf75256). Intended to live in a
 handset-shaped enclosure (see `mechanical/`) and be used as a push-to-talk voice handset for a
 Claude session on the host computer: the host maps F13/F14 to actions, streams audio in and out.
@@ -154,4 +155,10 @@ The Gerbers themselves put the centre at (40, −40); JLCPCB's CAM shifted that 
   (about 2 min, no dependencies).
 - `python3 mechanical/make_stl.py` regenerates the STLs from `pick_and_place.csv`.
 - gerbonara (`pip install gerbonara`) plus `rsvg-convert` render any layer to PNG for inspection.
-- There is no firmware directory yet. Put it in `firmware/` at the root.
+- Firmware lives in `firmware/` (pico-sdk 2.3.1 + TinyUSB 0.18, C). `firmware/README.md` has the
+  build/flash/recovery instructions and the list of things that bit. Highlights: the buttons send
+  **F17/F18** (not F13/F14: macOS binds F14/F15 to display brightness); `./flash.sh` reflashes a
+  running board through its picotool reset interface (`--vid 0x1209 --pid 0x0001`); a watchdog
+  safe mode reports crash breadcrumbs in the USB serial string and drops to BOOTSEL after two
+  consecutive hangs; TinyUSB's RP2040 port needs the ISO-endpoint abort workaround in
+  `usb_audio.c` or the device panics whenever the host restarts a stream.

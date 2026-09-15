@@ -1,0 +1,54 @@
+;
+; I2S transmitter: 16-bit stereo, BCLK = 32 x LRCLK, data changes on the
+; falling BCLK edge and lags the LRCLK edge by one BCLK (standard I2S).
+;
+; Derived from pico-extras audio_i2s.pio, Copyright (c) 2020 Raspberry Pi
+; (Trading) Ltd., SPDX-License-Identifier: BSD-3-Clause.
+;
+; One 32-bit word per frame: low 16 bits = left, high 16 bits = right
+; (little-endian int16_t pairs {left, right}).
+;
+; Side-set: bit 0 = BCLK (pin base), bit 1 = LRCLK (pin base + 1).
+;
+
+.program i2s_out
+.side_set 2
+
+                    ;        /--- LRCLK
+                    ;        |/-- BCLK
+bitloop1:           ;        ||
+    out pins, 1       side 0b10
+    jmp x-- bitloop1  side 0b11
+    out pins, 1       side 0b00
+    set x, 14         side 0b01
+
+bitloop0:
+    out pins, 1       side 0b00
+    jmp x-- bitloop0  side 0b01
+    out pins, 1       side 0b10
+public entry_point:
+    set x, 14         side 0b11
+
+% c-sdk {
+#include "hardware/clocks.h"
+
+static inline void i2s_out_program_init(PIO pio, uint sm, uint offset, uint data_pin, uint clock_pin_base, uint32_t sample_rate) {
+    pio_gpio_init(pio, data_pin);
+    pio_gpio_init(pio, clock_pin_base);
+    pio_gpio_init(pio, clock_pin_base + 1);
+    pio_sm_set_consecutive_pindirs(pio, sm, data_pin, 1, true);
+    pio_sm_set_consecutive_pindirs(pio, sm, clock_pin_base, 2, true);
+
+    pio_sm_config c = i2s_out_program_get_default_config(offset);
+    sm_config_set_out_pins(&c, data_pin, 1);
+    sm_config_set_sideset_pins(&c, clock_pin_base);
+    sm_config_set_out_shift(&c, false, true, 32);   // MSB first, autopull every 32 bits
+    sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_TX);
+
+    // Two PIO cycles per BCLK, 32 BCLK per stereo frame.
+    float div = (float) clock_get_hz(clk_sys) / (float) (sample_rate * 32u * 2u);
+    sm_config_set_clkdiv(&c, div);
+
+    pio_sm_init(pio, sm, offset + i2s_out_offset_entry_point, &c);
+}
+%}

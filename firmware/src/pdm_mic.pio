@@ -1,0 +1,67 @@
+;
+; PDM microphone clock + data capture.
+;
+; Six PIO cycles per PDM clock period: three low, three high. DATA is sampled
+; in the same cycle that drives the clock edge which ENDS the mic's driving
+; phase, i.e. after the mic has had a full half period to settle and before it
+; can react to the new edge. The input synchroniser is bypassed for the data
+; pin so the sample is taken at that instant rather than two cycles earlier.
+;
+; The SPH0641LU4H-1 has SELECT tied to GND on the handset. A single mic on the
+; bus drives DATA for one clock phase and tri-states for the other, and the
+; trace capacitance holds the level during the tri-state phase, so either
+; program below recovers the same bit stream; what matters is not sampling
+; while the output is switching. pdm_mic (sample on the rising edge, for a mic
+; that drives after the falling edge) is the default; pdm_mic_alt samples on
+; the falling edge and can be selected with -DPDM_SAMPLE_ON_HIGH_PHASE=1.
+;
+; ISR is configured to shift right with autopush at 32 bits, so bit 0 of each
+; word is the earliest sample in time.
+;
+
+.program pdm_mic
+.side_set 1
+.wrap_target
+    nop             side 0 [2]
+    in pins, 1      side 1
+    nop             side 1 [1]
+.wrap
+
+.program pdm_mic_alt
+.side_set 1
+.wrap_target
+    nop             side 1 [2]
+    in pins, 1      side 0
+    nop             side 0 [1]
+.wrap
+
+% c-sdk {
+#include "hardware/clocks.h"
+
+#define PDM_MIC_PIO_CYCLES_PER_BIT 6
+
+static inline void pdm_mic_program_init(PIO pio, uint sm, uint offset, uint data_pin, uint clk_pin, uint32_t pdm_clock_hz, const pio_program_t *program_used) {
+    pio_gpio_init(pio, clk_pin);
+    pio_gpio_init(pio, data_pin);
+    // The mic tri-states DATA for half of every clock; no pulls so the line
+    // holds its level instead of being dragged to a rail.
+    gpio_set_pulls(data_pin, false, false);
+    pio_sm_set_consecutive_pindirs(pio, sm, clk_pin, 1, true);
+    pio_sm_set_consecutive_pindirs(pio, sm, data_pin, 1, false);
+    // Sample the pin at the instant of the instruction, not two cycles late.
+    hw_set_bits(&pio->input_sync_bypass, 1u << data_pin);
+
+    pio_sm_config c = (program_used == &pdm_mic_alt_program)
+        ? pdm_mic_alt_program_get_default_config(offset)
+        : pdm_mic_program_get_default_config(offset);
+    sm_config_set_sideset_pins(&c, clk_pin);
+    sm_config_set_in_pins(&c, data_pin);
+    sm_config_set_in_shift(&c, true, true, 32);     // shift right, autopush every 32 bits
+    sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_RX);
+
+    float div = (float) clock_get_hz(clk_sys) / (float) (pdm_clock_hz * PDM_MIC_PIO_CYCLES_PER_BIT);
+    sm_config_set_clkdiv(&c, div);
+
+    pio_sm_init(pio, sm, offset, &c);
+}
+%}
